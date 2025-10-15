@@ -1,0 +1,101 @@
+encoding  utf-8
+
+# Copyright (C) # Copyright (C) 2023 Benoît Urruty
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+layout Entrances_coords_Ded
+# Layout where we define the different variables that contain the text with 
+# the entrance coordinates we want to print in the header.
+# We need one variable per entrance.
+
+# This layout is called by the layout Coords_Header below
+
+	code tex-map
+		\def\thlocationA{A.G. (scialet de l') -- X : 854424 Y :  3305863 Alt. : 1988 m}
+		\def\thlocationB{A.G. (scialet de l') -- X : 854400 Y :  3305920 Alt. : 1950 m}
+		\def\thlocationC{AGNES (grotte) -- X : 855628 Y :  3305403 Alt. : 1870 m}
+		\def\thlocationD{ANTRE DES GLACES (scialet l') -- X : 855684 Y :  3307643 Alt. : 1749 m}
+		\def\thlocationE{BAGNARDS (scialet des) -- X : 855314 Y :  3306708 Alt. : 1813 m}
+		\def\thlocationF{BLIZZARD (scialet du) -- X : 855276 Y :  3307205 Alt. : 1805 m}
+		\def\thlocationG{BOURRASQUE (scialet de la) -- X : 855327 Y :  3306376 Alt. : 1886 m}
+		\def\thlocationH{BRUMES MATINALES (scialet des) -- X :  Y :   Alt. : 1769 m}
+		\def\thlocationI{Candy -- X :  Y :   Alt. : 1580 m}
+		\def\thlocation00{Cavernes des Clos -- X :  Y :   Alt. : 1880 m}
+		\def\thlocationK{CLOT D'ASPRES (grotte du) -- X : 855170 Y :  3307940 Alt. : 1710 m}
+		\def\thlocationL{CLOT D'ASPRES (grotte du) - entrée 1 (basse) -- X : 855209 Y :  3307973 Alt. : 1643 m}
+		\def\thlocationM{CRETES VENTEES (scialet des) -- X : 854730 Y :  3306795 Alt. : 1943 m}
+		\def\thlocationN{Deux Soeurs -- X :  Y :   Alt. : 1844 m}
+		\def\thlocationO{GOULE BLANCHE (grotte de) -- X : 850410 Y :  3312280 Alt. : 832 m}
+		\def\thlocationP{ISA (scialet d') -- X : 856055 Y :  3306630 Alt. : 1862 m}
+		\def\thlocationQ{Jeunesse d'automne -- X :  Y :   Alt. :  m}
+		\def\thlocationR{LATTES (scialet des) -- X : 853020 Y :  3306448 Alt. : 1619 m}
+		\def\thlocationS{LAUZET (scialet du) -- X : 853127 Y :  3308352 Alt. : 1242 m}
+		\def\thlocationT{LIEVRE BLANC (scialet du) -- X : 854159 Y :  3307438 Alt. : 1700 m}
+		\def\thlocationU{Mistral -- X :  Y :   Alt. :  m}
+		\def\thlocationV{NUITS BLANCHES (scialet des) -- X :  Y :   Alt. : 1767 m}
+		\def\thlocationW{NYMPHE EMUE (scialet de la) -- X : 855355 Y :  3305789 Alt. : 2033 m}
+		\def\thlocationX{OREADE (grotte de l') -- X : 855950 Y :  3305750 Alt. : 2017 m}
+		\def\thlocationY{PEUIL TANQUIN (scialet de) -- X : 852220 Y :  3312120 Alt. : 1210 m}
+		\def\thlocationZ{PRE DE L'ACHARD (scialet du) -- X : 855362 Y :  3306703 Alt. : 1821 m}
+		\def\thlocationAA{SILENCE (scialet du) -- X : 855311 Y :  3306965 Alt. : 1845 m}
+
+	endcode 
+	
+endlayout
+
+
+layout Coords_Header_Ded
+# Layout that set the presentation for the entrance coordinates.
+	
+	copy Entrances_coords_Ded
+	# it calls the layout above Entrances_coords where we defined the different 
+	# variables that contain the text with 
+	# the entrance coordinates we want to print in the header.
+	
+	code tex-map
+		\def\nostring{}
+		\def\thsizexl{}
+		\def\thsizel{}
+		\def\thsizem{}
+		\ifx\thsizexl\nostring\def\thsizexl{30}\else\fi
+		\ifx\thsizel\nostring\def\thsizel{24}\else\fi
+		\ifx\thsizem\nostring\def\thsizem{20}\else\fi
+		
+		\ECoordinates={
+			\edef\tmp{\thlocationA} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationA\vss}\fi
+			\edef\tmp{\thlocationB} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationB\vss}\fi
+			\edef\tmp{\thlocationC} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationC\vss}\fi
+			\edef\tmp{\thlocationD} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationD\vss}\fi
+			\edef\tmp{\thlocationE} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationE\vss}\fi
+			\edef\tmp{\thlocationF} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationF\vss}\fi
+			\edef\tmp{\thlocationG} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationG\vss}\fi
+			\edef\tmp{\thlocationH} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationH\vss}\fi
+			\edef\tmp{\thlocationI} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationI\vss}\fi
+			\edef\tmp{\thlocation00} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocation00\vss}\fi
+			\edef\tmp{\thlocationK} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationK\vss}\fi
+			\edef\tmp{\thlocationL} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationL\vss}\fi
+			\edef\tmp{\thlocationM} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationM\vss}\fi
+			\edef\tmp{\thlocationN} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationN\vss}\fi
+			\edef\tmp{\thlocationO} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationO\vss}\fi
+			\edef\tmp{\thlocationP} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationP\vss}\fi
+			\edef\tmp{\thlocationQ} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationQ\vss}\fi
+			\edef\tmp{\thlocationR} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationR\vss}\fi
+			\edef\tmp{\thlocationS} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationS\vss}\fi
+			\edef\tmp{\thlocationT} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationT\vss}\fi
+			\edef\tmp{\thlocationU} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationU\vss}\fi
+			\edef\tmp{\thlocationV} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationV\vss}\fi
+			\edef\tmp{\thlocationW} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationW\vss}\fi
+			\edef\tmp{\thlocationX} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationX\vss}\fi
+			\edef\tmp{\thlocationY} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationY\vss}\fi
+			\edef\tmp{\thlocationZ} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationZ\vss}\fi
+			\edef\tmp{\thlocationAA} \ifx\tmp\empty \else {\size[\thsizem]\hskip5.95cm  \ss\thlocationAA\vss}\fi
+
+
+		}
+	endcode
+
+endlayout
+
+
+
