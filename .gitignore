@@ -1,0 +1,29 @@
+#ignorer PDF
+*.pdf
+
+#ignorer DEM
+# *.asc
+# *.tif
+GIS/Big_file/
+
+#ignorer geoTIFF
+*.tif
+*.xvi
+
+*.svg
+*.kml
+*.lox
+*.log
+*.shx
+*.shp
+*.dbf
+*.prj
+*.sbx
+*.sbn
+*.sqlite
+*.vtk
+*.html
+*.dxf
+*.3d
+*.sql
+*.ai
