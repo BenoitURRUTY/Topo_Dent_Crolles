@@ -1,0 +1,13 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust -100.0 -100.0 100.0 100.0
+##XTHERION## xth_me_area_zoom_to 25
+
+# 2025.10.21 created by TopoDroid v. 6.3.20
+
+scrap Réseau_Des_Excités_220731bis-1s -projection extended -scale [0 0 39.3701 0 0 0 1 0 m]
+
+
+
+
+endscrap
+

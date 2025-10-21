@@ -1,0 +1,184 @@
+encoding utf-8
+# 2025.10.16 created by TopoDroid v 6.3.20
+
+survey Belvédère_230827 -title "Belvédère 230827"
+    # Point gps sur rocher qui dépasse au départ du puits 
+
+  centerline
+    cs long-lat
+    fix Be0 5.857994 45.321346 1718
+    date 2023.08.27 
+    team "Barnabé Maurice"
+    # declination 2.7000 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    Be0 . 1.04 179.8 -16.4
+    Be0 . 1.78 121.9 -15.9
+    Be0 . 2.87 160.9 -66.6
+    Be0 . 0.83 87.4 3.2
+    Be0 . 5.28 252.2 -28.1
+    Be0 . 2.82 232.5 -26.4
+    Be0 . 1.53 210.7 -28.4
+    Be0 . 1.18 194.2 -22.5
+    Be0 . 4.94 226.5 -49.2
+    Be0 . 5.02 252.4 -51.8
+    Be0 . 3.80 262.1 -22.8
+    Be0 . 3.85 246.7 1.1
+    Be0 . 0.69 292.6 -16.6
+    Be0 . 1.76 274.3 -22.2
+    Be0 . 4.96 249.9 -27.1
+    extend left
+  # spit en bas du P4 d'entrée 
+    Be0 Be1 5.83 247.9 -35.4
+    # extend auto
+    Be1 . 0.54 330.0 1.9
+    Be1 . 0.51 279.2 -5.7
+    Be1 . 2.14 38.9 16.5
+    Be1 . 0.42 311.3 65.9
+    Be1 . 1.08 353.1 -78.5
+    Be1 . 2.17 341.3 -31.1
+    Be1 . 0.99 337.0 -20.8
+    Be1 . 0.87 347.5 69.1
+    Be1 . 9.99 242.8 -50.6
+    extend left
+  # petite marche rocheuse au bout MC
+    Be1 Be2 3.18 242.9 -50.6
+    # extend auto
+    Be2 . 1.12 231.4 -5.3
+    Be2 . 2.01 254.7 -9.4
+    Be2 . 1.20 292.1 -14.3
+    Be2 . 1.15 337.7 -9.6
+    Be2 . 2.18 319.9 32.3
+    Be2 . 1.62 277.0 41.1
+    Be2 . 1.42 225.0 67.6
+    Be2 . 1.18 46.2 86.7
+    Be2 . 2.28 2.3 40.8
+    Be2 . 0.77 81.7 22.3
+    extend left
+  # 1er frac, 20cm à gauche du pulse
+    Be2 Be3 5.19 223.6 -67.6
+    # extend auto
+    Be3 . 2.44 289.5 -5.7
+    Be3 . 2.63 244.0 -6.7
+    Be3 . 1.51 316.8 -7.1
+    Be3 . 1.89 62.9 4.1
+    Be3 . 2.27 86.0 5.6
+    Be3 . 1.53 2.8 -8.2
+    Be3 . 2.76 321.7 49.3
+    Be3 . 3.99 275.4 54.7
+    Be3 . 3.05 82.7 58.4
+    Be3 . 2.24 6.7 39.4
+    Be3 . 3.05 270.6 -28.8
+    Be3 . 3.53 241.9 -35.6
+    extend left
+  # 2e frac, tête du pulse
+    Be3 Be4 12.25 297.0 -79.9
+    # extend auto
+    Be4 . 5.19 116.9 4.6
+    Be4 . 3.30 141.4 7.9
+    Be4 . 3.48 171.9 9.1
+    Be4 . 3.30 201.1 9.6
+    Be4 . 3.28 214.2 -0.8
+    Be4 . 0.87 224.9 0.5
+    Be4 . 0.35 74.9 10.2
+    Be4 . 13.86 156.6 79.8
+    Be4 . 6.82 151.9 62.0
+    Be4 . 5.74 186.2 51.7
+    Be4 . 15.42 172.8 85.8
+    Be4 . 14.45 100.9 71.8
+    Be4 . 5.88 119.6 -36.7
+    Be4 . 6.29 106.3 -41.7
+    Be4 . 7.71 175.4 -61.0
+    extend left
+  # angle rocheux 20cm au dessus du frac
+    Be4 Be5 8.91 212.8 -86.2
+    # extend auto
+    Be5 . 3.98 130.0 7.7
+    Be5 . 3.09 164.7 6.3
+    Be5 . 2.67 222.0 -4.1
+    Be5 . 6.55 255.7 2.4
+    Be5 . 6.10 277.0 64.5
+    Be5 . 3.41 211.8 43.0
+    Be5 . 2.11 21.9 67.4
+    Be5 . 1.37 323.8 36.2
+    Be5 . 3.23 187.0 -17.2
+    Be5 . 3.03 171.0 -0.4
+    Be5 . 6.75 148.9 -51.4
+    Be5 . 5.61 112.0 -47.8
+    Be5 . 4.61 219.9 -53.0
+    extend right
+  # bloc au sol pas loin du gros tron d'arbre 
+    Be5 Be6 22.24 125.4 -78.6
+    # extend auto
+    Be6 . 5.05 352.9 22.4
+    Be6 . 7.15 265.7 5.7
+    Be6 . 1.53 218.3 2.3
+    Be6 . 10.91 47.3 55.5
+    Be6 . 4.96 107.2 49.4
+    Be6 . 1.10 158.6 27.0
+    Be6 . 13.96 280.7 26.7
+    Be6 . 11.57 311.9 37.6
+    Be6 . 9.55 345.1 62.9
+    Be6 . 10.36 285.1 54.9
+    Be6 . 11.59 260.4 62.3
+    Be6 . 12.32 307.6 75.8
+    extend left
+  # vernis paroie en face
+    Be6 Be7 8.50 308.2 -3.2
+    # extend auto
+    Be7 . 8.39 143.7 10.3
+    Be7 . 5.19 171.7 11.6
+    Be7 . 17.26 118.5 26.5
+    Be7 . 8.51 198.4 85.5
+    extend left
+    Be7 . 8.80 282.6 39.0
+    Be7 . 14.60 261.8 12.0
+    # extend auto
+    Be7 . 9.94 238.1 11.3
+    Be7 . 6.93 208.4 3.1
+    Be7 . 9.52 219.6 52.2
+    extend left
+    Be7 . 12.87 241.1 31.7
+    # extend auto
+    Be7 . 5.05 196.0 2.8
+    extend right
+  # haut de l'éboulis 
+    Be7 Be8 21.69 103.0 26.3
+    # extend auto
+    Be8 . 6.21 234.9 4.2
+    Be8 . 6.56 183.6 19.5
+    Be8 . 5.78 156.8 31.9
+    Be8 . 2.85 257.7 62.1
+    Be8 . 3.74 284.9 30.9
+    Be8 . 29.82 274.4 -8.5
+    Be8 . 10.83 295.6 -5.2
+    Be8 . 3.24 313.3 3.8
+    Be8 . 1.14 344.7 9.9
+    Be8 . 3.78 173.6 6.0
+    Be8 . 3.38 240.2 45.6
+    Be8 . 2.01 299.4 45.8
+    Be8 . 2.59 223.3 -25.0
+    Be8 . 1.73 260.7 -44.4
+    Be8 . 8.74 255.9 -22.7
+    Be8 . 19.82 265.9 -23.4
+    Be8 . 13.98 295.3 -16.7
+    Be8 . 8.97 300.7 -21.9
+    Be8 . 5.61 162.9 9.0
+    Be8 . 6.47 175.8 28.7
+    Be8 . 6.81 193.3 44.0
+    Be8 . 8.56 186.8 58.2
+  endcenterline
+
+  # input "Belvédère_230827-1p.th2"
+  # input "Belvédère_230827-1s.th2"
+
+  # map m1p -projection plan
+  #   Belvédère_230827-1p
+  # endmap
+  # map m1s -projection extended
+  #   Belvédère_230827-1s
+  # endmap
+
+endsurvey
