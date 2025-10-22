@@ -4,7 +4,7 @@
 #ignorer DEM
 # *.asc
 # *.tif
-GIS/Big_file/
+Therion/GIS/Big_files/
 
 #ignorer geoTIFF
 *.tif

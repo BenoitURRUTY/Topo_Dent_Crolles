@@ -5,6 +5,7 @@ survey Chevalier_240608 -title "Chevalier 240608"
 
   centerline
     cs long-lat
+
     fix C0 5.854611 45.306722 1694
     date 2024.05.31 
     # team Barnabé Léa Loïc Alain 
@@ -2090,7 +2091,7 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend right
     C38-15-a15 C38-15-a16 7.66 42.4 -2.7
     # extend auto
-    0 . 7.45 42.3 -2.8
+    # 0 . 7.45 42.3 -2.8
     C38-15-a16 . 0.41 306.7 0.6
     C38-15-a16 . 0.63 127.0 -2.0
     C38-15-a16 . 2.43 43.5 69.5
@@ -6533,7 +6534,7 @@ survey Chevalier_240608 -title "Chevalier 240608"
     A59-1 . 2.28 235.9 9.1
     A59-1 . 1.11 170.6 31.2
     A59-1 . 2.12 171.2 31.3
-    0 . 2.11 170.9 31.3
+    # 0 . 2.11 170.9 31.3
     extend right
     A59-1 A59-2 2.14 171.4 30.2
     # extend auto
@@ -6818,6 +6819,7 @@ survey Chevalier_240608 -title "Chevalier 240608"
     A40 . 3.01 130.5 13.8
     extend left
   # visée oublié de la tripler lors de la 1ere séance 
+  # BEN : attention j'ai decommenté les visée A'
     A40 A'41 12.08 359.3 -6.1
     # extend auto
     A'41 . 3.11 231.2 -6.9
@@ -6829,14 +6831,14 @@ survey Chevalier_240608 -title "Chevalier 240608"
     A'41 . 0.62 288.8 59.3
     A'41 . 2.24 266.8 -80.1
     extend left
-#   A'41 A'42 4.26 7.2 -17.4
+  A'41 A'42 4.26 7.2 -17.4
     # extend auto
     A'42 . 0.69 276.6 -5.1
     A'42 . 1.58 321.9 -6.7
     A'42 . 0.88 105.2 -7.0
     A'42 . 2.42 37.1 -15.9
     extend left
-#   A'42 A'43 4.91 3.6 -31.0
+  A'42 A'43 4.91 3.6 -31.0
     # extend auto
     A'43 . 1.77 102.9 3.0
     A'43 . 1.50 57.9 0.2
