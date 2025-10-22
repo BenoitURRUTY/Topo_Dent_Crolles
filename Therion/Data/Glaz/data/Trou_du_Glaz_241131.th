@@ -5,9 +5,9 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     # Guiers_Merelau 
 
   centerline
-    cs long-lat
-    # fix G0 5.851533 45.317117 1697
-    date 2024.11.30 
+    cs UTM31
+    fix G0 723498.60 5022147.20	1692.3
+    date 2020.05.17
     # team Thib Loïc Barnab 
     # declination 2.1800 degrees
 
@@ -558,6 +558,16 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G35 . 1.40 5.9 -0.7
     G35 . 2.45 301.3 -10.4
     extend right
+  endcenterline
+  centerline
+    date 2020.05.17
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+
   # broche du bas du relais. Puit de la Lanterne 1
     G35 G36 5.65 184.7 -0.7
     # extend auto
@@ -1373,6 +1383,16 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.31 . 6.08 202.4 16.5
     G34.31 . 1.19 217.6 12.8
     extend right
+  endcenterline
+  centerline
+    date 2020.05.17
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+
   # en bas, à la confluence des 2 actifs. 
     G34.31 G34.32 7.29 262.8 -80.1
     # extend auto
@@ -1743,6 +1763,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # bouclage sur G31.5
     G21.6.4 G21.6.5 9.32 63.6 -48.7
     extend left
+  endcenterline
+  centerline
+    date 2020.05.17
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # courte étroiture au sol. 
     G25 G25.a1 5.28 203.7 1.2
     # extend auto
@@ -1930,6 +1959,7 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G25.a9.2 . 1.48 182.8 46.8
     G25.a9.2 . 0.86 163.3 -82.6
     extend right
+date 2021.08.01
   # Départ Barnabé Alex 210824 du pt marqué 51 62 ??? 
     G34.64 G34.65 1.88 291.6 -3.9
     # extend auto
@@ -2705,6 +2735,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # sommet de la lame sur le palier, devant le méandre, point marqué. 
     G34.134 G34.135 18.89 59.0 -76.2
     extend left
+  endcenterline
+  centerline
+    date 2021.08.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Départ escalade au dessus flaque de boue
     G34.134 G34.134-1 4.18 302.4 16.2
     # extend auto
@@ -2903,6 +2942,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.135-8 . 1.63 50.6 -84.5
     extend right
     G34.135-8 G34.135-9 2.98 319.9 -13.5
+  endcenterline
+  centerline
+    date 2021.08.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # frac af+p
     G34.135 G34.136 2.57 168.0 -4.9
     # extend auto
@@ -3555,6 +3603,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.135-52 . 19.50 342.5 -77.2
     G34.135-52 . 5.92 345.1 -28.0
     extend right
+  endcenterline
+  centerline
+    date 2021.08.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # base du puits du Piton, topo vers le fond connu.
     G34.107 G34.107-1 24.69 171.9 -82.9
     # extend auto
@@ -4099,6 +4156,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.107-55 . 0.96 288.0 -28.5
     G34.107-55 . 1.20 260.3 -79.3
     extend right
+  endcenterline
+  centerline
+    date 2021.08.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # juste au dessus frac (pointe rocher) 2 pulse
     G34.135-52 G34.135-53 5.15 353.2 -65.2
     # extend auto
@@ -4287,13 +4353,13 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # en vrac en haut du puit
 #   G34.135-71 G34.135-72' 2.01 273.7 -18.0
     # extend auto
-    G34.135-72' . 0.17 249.0 5.4
-    G34.135-72' . 0.49 63.3 11.7
-    G34.135-72' . 4.67 10.2 75.4
-    G34.135-72' . 1.26 294.1 0.4
-    G34.135-72' . 4.50 320.1 -3.1
-    G34.135-72' . 4.35 347.2 -9.3
-    G34.135-72' . 1.29 2.7 -1.6
+    # G34.135-72' . 0.17 249.0 5.4
+    # G34.135-72' . 0.49 63.3 11.7
+    # G34.135-72' . 4.67 10.2 75.4
+    # G34.135-72' . 1.26 294.1 0.4
+    # G34.135-72' . 4.50 320.1 -3.1
+    # G34.135-72' . 4.35 347.2 -9.3
+    # G34.135-72' . 1.29 2.7 -1.6
     extend right
   # vers bas puit en vrac (-135)
 #   G34.135-72' G34.135-73' 6.06 307.3 -75.7
@@ -4621,6 +4687,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.135-76 . 8.52 178.4 77.6
     G34.135-76 . 1.32 62.0 -88.2
     extend right
+  endcenterline
+  centerline
+    date 2022.08.21
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # paroie de la faille. 
     G34.135-76 G34.135-76-1 5.86 188.9 -17.9
     # extend auto
@@ -5113,6 +5188,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.135-104 . 12.10 177.7 5.3
     G34.135-104 . 11.82 176.6 5.3
     extend right
+  endcenterline
+  centerline
+    date 2022.05.07
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # déport sur mur de la salle 
     G25.a2 G25.a2-1 1.53 14.1 38.5
     # extend auto
@@ -5298,6 +5382,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # marqué au fond, terminus colmaté, le courant d'air fort l'été, part entre les cailloux à gauche. manque de place pour stocker les cailloux. 
     G25.a31 G25.a32 6.69 88.8 9.7
+  endcenterline
+  centerline
+    date 2022.05.07
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # descente dans le puits Martel. nota, au dessus, puis remontant, avec 2 petits bouclages non topo. 
     G24 G24-1 1.64 16.2 -82.8
     # extend auto
@@ -5782,6 +5875,17 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G53-18 . 0.66 312.2 74.3
     G53-18 . 0.26 303.1 -79.7
     extend left
+
+  endcenterline
+  centerline
+    date 2022.05.07
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+
   # départ vers puits Perrin, après 1m de désob. 
     G53-6 G53-6-1 4.57 213.7 -0.2
     # extend auto
@@ -5812,6 +5916,16 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend left
   # jonction point topo. 
     G53-6-3 G53-6-4 0.91 142.9 13.1
+  endcenterline
+  centerline
+    date 2022.05.12
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+
   # reprise topo 12 mai 22 L&B&Thibaut
     G53-18 G53-19 3.76 41.9 -1.4
     # extend auto
@@ -6942,6 +7056,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G42 . 4.12 88.6 -0.8
     G42 . 2.34 76.5 -10.9
     G42 . 3.62 73.5 -9.7
+  endcenterline
+  centerline
+    date 2022.05.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     G53 G54 7.32 143.5 3.2
     # extend auto
@@ -7126,6 +7249,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G65 . 8.64 341.5 84.3
     G65 . 1.81 203.7 -72.2
     extend right
+  endcenterline
+  centerline
+    date 2022.05.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # panneau pied du puits de l'ogive
     G65 G65-1 5.42 26.2 30.0
     # extend auto
@@ -7414,6 +7546,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70 . 3.97 244.3 11.6
     G70 . 6.22 46.7 -67.3
     extend right
+  endcenterline
+  centerline
+    date 2022.05.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # vers P36... 
     G70 G70.1 2.39 100.5 -2.5
     # extend auto
@@ -7720,6 +7861,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G91 . 5.41 17.5 2.4
     G91 . 0.98 34.5 88.3
     G91 . 0.73 299.6 -86.5
+  endcenterline
+  centerline
+    date 2022.05.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     G91 G91.1 8.21 26.4 -1.1
     # extend auto
@@ -7762,6 +7912,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G91.3 . 1.88 75.1 -12.4
     G91.3 . 24.68 166.9 11.6
     extend right
+  endcenterline
+  centerline
+    date 2022.05.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # spot pic nic
     G91 G92 12.98 166.7 11.6
     # extend auto
@@ -7952,6 +8111,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G96.11 . 0.81 324.9 74.7
     G96.11 . 0.41 179.9 -70.0
     extend right
+  endcenterline
+  centerline
+    date 2022.05.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # grosse dalle devant P Fernand
     G96 G97 11.87 254.6 -7.3
     # extend auto
@@ -8099,6 +8267,16 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G109 . 1.56 332.3 3.0
     G109 . 1.82 13.5 4.0
     extend right
+
+  endcenterline
+  centerline
+    date 2022.08.21
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Départ G102 vers noeud y tdp devant 
     G102 G102.1 4.30 142.6 -38.9
     # extend auto
@@ -8397,6 +8575,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # boucle sur G104
     G102.2.25 G102.2.26 1.76 295.4 -47.4
+  endcenterline
+  centerline
+    date 2022.08.21
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ amont étroit au plafond
     G34.135-23 G34.135-23.1 4.38 163.8 89.5
     # extend auto
@@ -8817,6 +9004,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.135-76.32 . 2.91 210.2 6.0
     G34.135-76.32 . 3.87 174.7 4.0
     extend right
+  endcenterline
+  centerline
+    date 2022.08.21
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G34.135-76.32 G34.135-76.33 3.67 172.7 5.3
     # extend auto
     G34.135-76.33 . 5.74 319.4 80.9
@@ -8842,6 +9038,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # boucle sur pt topo .. 104 métro 
     G34.135-76.35 G34.135-76.36 5.14 235.9 16.1
+  endcenterline
+  centerline
+    date 2022.08.18
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ 18/08/22 vers métro nord (Barnabé Prune Gervais) 
     G34.135-76.32 Me0 7.04 17.7 -3.2
     # extend auto
@@ -9237,6 +9442,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G71-2 . 9.38 327.7 84.6
     G71-2 . 0.74 222.4 -80.3
     extend right
+  endcenterline
+  centerline
+    date 2022.08.21
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ galerie Sud 21/08/22 Alain Barnabé 
     G96.11 G96.12 7.57 190.0 12.9
     # extend auto
@@ -9646,6 +9860,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # boucle sur G96.13
     G96.37 G96.38 9.60 313.6 -17.7
     extend ignore
+  endcenterline
+  centerline
+    date 2022.08.21
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Départ fond diaclase Annette (Alain Gervais Barnabé 21/08/22)
     G104 G104-1 14.50 182.3 -6.5
     # extend auto
@@ -10014,6 +10237,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # ça queute tout bouché
     G121-a1 G121-a2 5.09 180.4 -35.7
+  endcenterline
+  centerline
+    date 2022.08.21
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G121-8 G121-9 1.52 312.2 18.5
     # extend auto
     G121-9 . 0.18 285.9 4.0
@@ -10142,6 +10374,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend left
   # boucle dans grand croisement de failles sur G106 
     G121-22 G121-21 1.36 125.1 0.7
+  endcenterline
+  centerline
+    date 2022.09.04
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     G121 G122 7.68 215.6 4.3
     # extend auto
@@ -10335,6 +10576,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G138 . 0.97 114.8 -0.8
     G138 . 4.74 358.3 80.9
     G138 . 0.16 225.3 -86.1
+  endcenterline
+  centerline
+    date 2022.09.04
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     G138 G138-1 10.06 328.7 -5.4
     # extend auto
@@ -10477,6 +10727,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # Scotch light vers chevalier + vernis
     G148 G149 4.19 185.0 1.9
+  endcenterline
+  centerline
+    date 2022.09.09
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ topo Alain Barnabé 9/9/22
     G138-2 G138-3 7.60 354.7 -21.2
     # extend auto
@@ -10574,6 +10833,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G149 . 2.03 107.2 27.6
     G149 . 3.92 183.2 11.1
     G149 . 1.99 196.2 84.9
+  endcenterline
+  centerline
+    date 2022.09.09
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     G144 G144-1 3.18 338.6 -21.3
     # extend auto
@@ -10665,6 +10933,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # à gauche, croix après être passé sous le gros bloc qui fait peur. 
     G144-9 G144-10 6.07 190.2 7.4
+  endcenterline
+  centerline
+    date 2022.10.02
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ escalade du P60 Thib et Gervais
     G89 G89-1 1.73 55.5 12.1
     G89-1 G89-2 1.60 25.6 6.7
@@ -10791,6 +11068,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G149 . 2.29 65.2 17.0
     G149 . 1.69 340.8 10.9
     extend left
+  endcenterline
+  centerline
+    date 2022.10.02
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Séance topo 30/09/22 Jean Paul, Christophe, Barnabé 
     G150 G149 12.02 9.6 -2.3
     # extend auto
@@ -10826,6 +11112,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G152 . 6.19 208.7 82.5
     G152 . 1.58 148.0 -80.7
     extend right
+  endcenterline
+  centerline
+    date 2022.10.02
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # bas puits varappe
     G152.1 G152 14.10 3.2 75.7
     # extend auto
@@ -10921,6 +11216,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # boucle sur G155
     G157.1 G157.2 5.24 231.8 -5.9
     extend right
+  endcenterline
+  centerline
+    date 2022.10.02
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ galerie du Cairn
     G156.1 G156 7.11 62.5 0.6
     # extend auto
@@ -11197,6 +11501,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G170 . 2.20 280.6 -25.9
     G170 . 1.97 24.7 -88.1
     extend right
+  endcenterline
+  centerline
+    date 2022.10.02
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # dans la galerie parallèle 
     G170.1 G170 7.29 222.1 13.8
     # extend auto
@@ -11740,6 +12053,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G89-24-2 . 6.37 302.4 -75.6
     G89-24-2 . 6.71 318.8 -71.6
     extend right
+  endcenterline
+  centerline
+    date 2022.10.08
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Séance 8/10/22 Nicolas Barnabé 
     G34.169 G34.170 1.44 205.1 -44.7
     # extend auto
@@ -12308,6 +12630,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.201 . 2.63 271.8 9.4
     G34.201 . 2.12 149.9 -70.3
     extend right
+  endcenterline
+  centerline
+    date 1994.08.18 # euh 84 ou 94?
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # a partir du point 8, reprise des données topo de Biboc, 1984
     G34.186-8 G34.186-9 10.87 245.0 -2.0
     G34.186-9 G34.186-10 14.48 275.0 -5.0
@@ -12326,6 +12657,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.186-22 G34.186-23 5.73 76.0 -30.0
   # perte dans une faille étroite. 
     G34.186-23 G34.186-24 2.73 345.0 0.0
+  endcenterline
+  centerline
+    date 2022.10.15
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Départ Gervais Barnabé 15/10/2022 depuis P60
     G89 G89-a1 10.32 163.1 8.1
     # extend auto
@@ -12615,6 +12955,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     # extend auto
     G89-a29 . 8.89 74.4 -12.6
     extend right
+  endcenterline
+  centerline
+    date 2022.10.15
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # montée dans le puits. frac
     G89-35 G89-36 32.46 344.3 77.7
     # extend auto
@@ -13132,6 +13481,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G89-91 . 3.42 323.8 -83.1
     G89-91 . 0.13 80.3 -23.6
     extend right
+  endcenterline
+  centerline
+    date 2022.10.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Départ 16 oct 22 Thib' Prune Gervais Barnabé 
     G89-91 G89-92 1.85 205.3 -12.1
     # extend auto
@@ -13563,6 +13921,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G89-147 . 2.98 96.6 -78.0
     G89-147 . 0.71 167.4 17.2
     extend right
+  endcenterline
+  centerline
+    date 2022.10.25
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G89-147 G89-148 3.12 219.2 61.7
     # extend auto
     G89-148 . 0.30 291.6 5.7
@@ -13866,7 +14233,6 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
     G89-177 G89-178 4.49 132.1 9.1
     # extend auto
-    0 . 4.45 131.5 10.3
     G89-178 . 0.22 55.8 7.8
     G89-178 . 0.97 346.6 -7.8
     G89-178 . 0.57 289.1 -10.7
@@ -14102,6 +14468,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     MeA5 . 1.13 295.3 -0.4
     MeA5 . 0.36 171.3 -84.0
     extend left
+  endcenterline
+  centerline
+    date 2022.11.12
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # boyau terreux
     MeA5 MeA5-1 3.78 244.3 3.0
     # extend auto
@@ -14181,6 +14556,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     MeA6-4 . 5.65 318.0 -4.2
     MeA6-4 . 7.96 337.0 -7.1
     extend right
+  endcenterline
+  centerline
+    date 2022.11.12
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # direction sud légèrement descendant. scotch orange
     MeA6-4 MeA6-5 7.22 344.8 -6.0
     # extend auto
@@ -14663,12 +15047,22 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G80-1 . 12.35 88.3 67.9
     G80-1 . 11.37 88.1 68.0
     extend right
+  endcenterline
+  centerline
+    date 2022.11.12
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
   # Méandre à droite avant le P. du Lac 
     G76 G76-1 3.39 108.2 23.9
     # extend auto
-    G80-3 . 0.37 2.0 2.5
-    G80-3 . 0.71 40.0 -69.0
-    G80-3 . 0.38 22.2 64.3
+    G76-1 . 0.37 2.0 2.5
+    G76-1 . 0.71 40.0 -69.0
+    G76-1 . 0.38 22.2 64.3
     extend right
     G76-1 G76-2 3.18 86.1 5.8
     # extend auto
@@ -14740,6 +15134,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G76-10 . 2.55 78.5 74.2
     G76-10 . 9.66 145.1 11.6
     extend right
+  endcenterline
+  centerline
+    date 2022.11.12
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Départ galerie de la patte d'oie. Base puits escaladé à gauche, ça tourne à droite
     G160 G160-1 9.39 332.2 1.6
     # extend auto
@@ -14783,6 +15186,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G160-1-2 . 4.72 48.2 79.0
     G160-1-2 . 0.84 272.9 -82.9
     extend right
+  endcenterline
+  centerline
+    date 2022.11.12
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # vers l'aval, belle galerie 
     G160-1-2 G160-1-3 4.82 22.7 -12.5
     # extend auto
@@ -14979,6 +15391,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G160-1-2-14 G160-1-2-15 6.01 204.0 8.5
     extend right
    flags duplicate
+  endcenterline
+  centerline
+    date 2022.12.28
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # du point topo au bas de la remontée. 
     G185 G186 11.54 46.1 12.2
    flags not duplicate
@@ -15045,6 +15466,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # bouclage haut du puits de la Gnôle 
     G191 G192 2.52 349.3 32.1
    flags not duplicate
+  endcenterline
+  centerline
+    date 2022.12.28
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # début galerie de la patte d'oie 
     G160-1 G160-2 6.96 30.1 -0.1
     # extend auto
@@ -15643,11 +16073,11 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G160-3-1-3 G160-3-1-4a 11.91 237.1 86.6
     G160-3-1-3 G160-3-1-4 2.12 133.8 -43.5
     # extend auto
-    G160-3-1-4b . 1.55 293.1 15.0
-    G160-3-1-4b . 0.73 355.1 16.1
-    G160-3-1-4b . 1.78 59.8 13.4
-    G160-3-1-4b . 2.46 91.4 -3.4
-    G160-3-1-4b . 1.12 124.8 -5.1
+    G160-3-1-4 . 1.55 293.1 15.0
+    G160-3-1-4 . 0.73 355.1 16.1
+    G160-3-1-4 . 1.78 59.8 13.4
+    G160-3-1-4 . 2.46 91.4 -3.4
+    G160-3-1-4 . 1.12 124.8 -5.1
     G160-3-1-4 . 0.77 239.1 21.4
     G160-3-1-4 . 19.14 313.9 80.0
     G160-3-1-4 . 0.75 18.4 -64.5
@@ -15691,6 +16121,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage G162, stalagmite marquée dans le virage. 
     G160-3-1-7 G160-3-1-8 4.85 229.6 -22.2
+  endcenterline
+  centerline
+    date 2023.01.07
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G192 G193 7.62 170.8 6.2
     # extend auto
     G193 . 0.93 260.6 -69.4
@@ -15733,6 +16172,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G156.10 . 4.67 67.7 13.8
     G156.10 . 6.44 83.2 12.7
     extend right
+  endcenterline
+  centerline
+    date 2023.01.08
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G156.10 G156.11 9.52 76.3 21.1
     # extend auto
     G156.11 . 2.31 274.0 -2.4
@@ -15999,6 +16447,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G156.32 . 0.98 263.0 76.1
     G156.32 . 1.77 231.8 -88.7
     extend left
+  endcenterline
+  centerline
+    date 2023.05.07
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Traversée historique : départ méandre 
     G87 G87.1 3.18 58.2 -59.6
     # extend auto
@@ -16276,6 +16733,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G87.28 . 1.82 80.0 -85.0
     G87.28 . 58.61 59.7 -89.5
     extend right
+  endcenterline
+  centerline
+    date 2023.05.07
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ en hauteur
     G87.18 G87.18.1 2.80 144.3 45.5
     # extend auto
@@ -16319,6 +16785,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # Bouclage sur G87.7
     G87.18.4 G87.18.5 3.27 169.8 10.3
+  endcenterline
+  centerline
+    date 2023.05.07
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend left
     G84 G84.1 2.74 341.3 57.2
     # extend auto
@@ -16560,6 +17035,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G84.21 . 1.58 301.9 -4.4
     G84.21 . 1.89 298.2 -75.9
     extend right
+  endcenterline
+  centerline
+    date 2023.07.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ vers Chevalier, pt sur panneau 
     G149 G149.1 2.52 272.8 -28.5
     # extend auto
@@ -17766,6 +18250,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage Chevalier, sommet gros bloc 
     G149.108 G149.109 8.48 265.2 -22.1
+  endcenterline
+  centerline
+    date 2023.05.13
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Départ P36 Nico Loïc Alain Barnab 13 mai. Pt sur palier
     G70.2 G70.3 23.08 226.1 -77.1
     # extend auto
@@ -18297,6 +18790,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70.48 . 11.06 76.6 -4.0
     G70.48 . 12.39 64.2 -6.4
     extend right
+  endcenterline
+  centerline
+    date 2023.05.13
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # panneau scotch light champ Élisée 
     G70.48 G70.49 13.46 6.7 19.5
     # extend auto
@@ -19195,6 +19697,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70.83 . 2.69 58.0 34.0
     G70.83 . 3.02 118.2 31.8
     extend right
+  endcenterline
+  centerline
+    date 2023.05.13
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # AN au sol pour descendre dans le P6
     G70.75 G70.75.1 2.14 25.9 -34.5
     # extend auto
@@ -19267,6 +19778,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70.85.1 . 4.11 313.2 -33.3
     G70.85.1 . 1.25 307.6 -27.2
     extend right
+  endcenterline
+  centerline
+    date 2023.05.13
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Vernis arrête entre le en bas de la corde de la Cascade Rocheuse et l'eau
     G70.85 G70.86 14.58 1.3 32.6
     # extend auto
@@ -19359,6 +19879,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70.93 . 5.92 31.0 80.8
     G70.93 . 0.54 111.5 -77.3
     extend right
+  endcenterline
+  centerline
+    date 2023.06.03
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Départ 3 juin 2023 depuis P. du Pendule
     G87.28 G87.29 2.15 59.6 -71.3
     # extend auto
@@ -19447,6 +19976,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G87.36 . 1.44 333.3 0.6
     G87.36 . 3.26 5.0 85.3
     extend right
+  endcenterline
+  centerline
+    date 2023.06.03
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # affluent, passage au plafond après escalade
     G87.36 G87.36.1 5.85 103.3 37.8
     # extend auto
@@ -20374,7 +20912,6 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend ignore
     G87.127.2 G87.127.3 2.75 229.9 -13.5
     # extend auto
-    0 . 2.75 230.2 -12.8
     G87.127.3 . 1.37 335.0 78.1
     G87.127.3 . 1.03 298.2 35.6
     G87.127.3 . 0.43 139.8 38.0
@@ -20593,6 +21130,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # Jonction P. Chevalier 
     G87.136 G87.137 29.17 322.2 -85.4
     extend left
+  endcenterline
+  centerline
+    date 2023.06.03
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # visée inverse depuis métro amont
     MeA6-a12 MeA6-a11 12.39 289.8 -17.5
     # extend auto
@@ -20764,6 +21310,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage sur le goujon
     MeA6-a15-5 MeA6-a15-6 8.61 71.1 -46.9
+  endcenterline
+  centerline
+    date 2023.06.03
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Suite vers P. Vienna équipe du 11 juin 2023
     G156.32 G156.33 4.94 182.6 24.5
     # extend auto
@@ -20984,6 +21539,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G156.44 . 2.01 46.4 -10.0
     G156.44 . 2.15 4.3 14.4
     extend ignore
+  endcenterline
+  centerline
+    date 2023.06.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ en hauteur du méandre. 22 juin
     G149.52 G149.52.1 1.55 287.2 40.1
     # extend auto
@@ -21168,6 +21732,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G149.87.4 . 3.43 198.0 -1.9
     G149.87.4 . 3.81 331.9 26.8
     extend right
+  endcenterline
+  centerline
+    date 2023.06.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # vers Désob dans le sable. Vieux outils rouillés
     G149.87.4 G149.87.5 5.00 342.3 17.8
     # extend auto
@@ -21422,6 +21995,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage P. de la Toussaint 
     G149.94.16 G149.94.17 2.10 63.5 -15.9
+  endcenterline
+  centerline
+    date 2023.07.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # suite méandre Xyam avec Nico le 1 juillet 23
     G84.21 G84.22 2.72 302.3 50.9
     # extend auto
@@ -21563,6 +22145,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G84.34 . 1.46 112.2 12.0
     G84.34 . 1.96 100.4 3.3
     extend right
+  endcenterline
+  centerline
+    date 2023.07.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ au plafond
     G84.34 G84.34.1 2.69 24.1 62.5
     # extend auto
@@ -21693,6 +22284,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G84.39.2 . 0.65 343.6 80.2
     G84.39.2 . 1.66 105.8 -82.3
     G84.39.2 . 0.68 78.0 -0.1
+  endcenterline
+  centerline
+    date 2023.07.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G84.39.2 . 0.87 9.4 12.4
     extend right
     G84.39.2 G84.39.3 5.41 29.6 -5.0
@@ -22075,6 +22675,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G84.70 . 2.35 113.1 -14.3
     G84.70 . 2.00 355.0 31.9
     extend right
+  endcenterline
+  centerline
+    date 2023.07.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # vernis. départ au plafond à 4 pattes + 2 départs à mi hauteur, en haut, escalade suite à faire ? 
     G84.70 G84.70.1 4.06 322.9 32.1
     # extend auto
@@ -22287,6 +22896,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G84.83.1 . 2.48 3.2 -53.6
     G84.83.1 . 3.47 5.0 -52.1
     extend right
+  endcenterline
+  centerline
+    date 2023.07.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # marqué vernis RD
     G84.83 G84.84 2.87 313.1 35.6
     # extend auto
@@ -22633,15 +23251,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
     G84.108-1 G84.108-2 1.70 156.5 9.6
     # extend auto
-    G84.18-2 . 0.26 24.5 1.9
-    G84.18-2 . 0.31 196.8 13.9
-    G84.18-2 . 1.79 210.3 11.3
-    G84.18-2 . 1.31 241.2 -1.9
-    G84.18-2 . 0.69 264.7 1.3
-    G84.18-2 . 0.53 290.1 7.9
-    G84.18-2 . 0.48 278.2 74.3
-    G84.18-2 . 0.83 249.4 -72.4
-    G84.18-2 . 1.32 243.6 -1.2
+    G84.108-2 . 0.26 24.5 1.9
+    G84.108-2 . 0.31 196.8 13.9
+    G84.108-2 . 1.79 210.3 11.3
+    G84.108-2 . 1.31 241.2 -1.9
+    G84.108-2 . 0.69 264.7 1.3
+    G84.108-2 . 0.53 290.1 7.9
+    G84.108-2 . 0.48 278.2 74.3
+    G84.108-2 . 0.83 249.4 -72.4
+    G84.108-2 . 1.32 243.6 -1.2
     extend right
   # bouclage 
     G84.108-2 G84.108-3 1.32 245.2 0.6
@@ -22708,6 +23326,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     # extend auto
     G34.135-76.28 . 0.13 163.8 0.9
     extend right
+  endcenterline
+  centerline
+    date 2023.07.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ vers escalade du P. Letrone
     G34.135-76.28 Let1 7.84 359.0 -29.1
     # extend auto
@@ -22823,6 +23450,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # bout de la faille, très étroit, courant d'air mais Loïc ne passe pas plus loin 
     Let10 Let11 19.59 237.2 -3.8
     extend right
+  endcenterline
+  centerline
+    date 2023.07.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino  
   # Suite métro
     MeA6 MeA7 6.73 173.1 -3.1
     # extend auto
@@ -22881,6 +23517,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # Jonction topo sur le palier du P. Chevalier 
     MeA9a Me_A9b 23.72 82.5 -47.9
+  endcenterline
+  centerline
+    date 2023.07.22
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # suite métro aval après P. du Cerf, départ à gauche 
     Me32 Me32.1 8.94 323.8 -4.2
     # extend auto
@@ -23243,6 +23888,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me38 . 2.53 111.0 85.8
     Me38 . 1.39 95.2 -81.9
     extend right
+  endcenterline
+  centerline
+    date 2023.07.29
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # suite de la topo du méandre le 29 7 2023. Nicolas, Lionel, Gervais, Alain 
     G84.108 G84.109 1.63 313.7 -5.4
     # extend auto
@@ -23611,6 +24265,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G84.133-3 . 2.52 63.9 38.1
     G84.133-3 . 4.36 80.7 62.1
     G84.133-3 . 6.52 247.9 0.3
+  endcenterline
+  centerline
+    date 2023.07.29
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
   # départ en hauteur à gauche 
     G84.79 G84.79-1 3.26 230.8 74.4
@@ -24436,8 +25099,6 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # méandre en hauteur à droite 
     G84.79-1-10 G84.79-1-10a 1.41 40.0 13.1
     # extend auto
-    0 . 1.41 42.1 15.3
-    0 . 1.42 40.8 14.2
     G84.79-1-10a . 0.70 302.1 -84.7
     G84.79-1-10a . 0.38 273.8 50.8
     G84.79-1-10a . 0.39 253.4 -24.3
@@ -24888,6 +25549,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # jonction scotchlight G34.30
     G34.27-31 G34.27-32 4.42 242.7 32.1
+  endcenterline
+  centerline
+    date 2023.08.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G65-14 G65-14-1 4.88 242.3 -12.6
     # extend auto
     G65-14-1 . 0.78 81.9 -1.2
@@ -25011,6 +25681,16 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G65-14-13 . 1.41 146.1 -77.1
     G65-14-13 . 18.50 124.6 74.3
     extend right
+  endcenterline
+  centerline
+    date 2023.08.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+
     G34.8 G34.8-1 2.40 336.4 -23.7
     # extend auto
     G34.8-1 . 0.20 307.8 83.8
@@ -25176,6 +25856,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G65-14-16 . 0.13 180.9 -69.4
     G65-14-16 . 4.55 78.1 9.9
     G65-14-16 . 4.42 77.4 8.0
+  endcenterline
+  centerline
+    date 2023.09.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     Me38 Me39 7.30 33.2 9.1
     # extend auto
@@ -25431,6 +26120,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me60 . 1.03 2.7 -15.1
     Me60 . 3.39 260.6 -36.6
     extend right
+  endcenterline
+  centerline
+    date 2023.09.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # vers départ en hauteur, à gauche en direction de l'amont 
     G34.176 G34.176-a1 4.61 78.5 36.4
     # extend auto
@@ -25476,6 +26174,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.176-a4 . 0.49 99.4 -64.8
     G34.176-a4 . 0.81 78.6 29.8
     extend right
+  endcenterline
+  centerline
+    date 2023.09.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # reprise topo vers la traversée
     G34.201 G34.202 2.17 83.6 -0.1
     # extend auto
@@ -26901,6 +27608,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Eb71 . 4.71 330.3 -17.3
     Eb71 . 0.26 93.6 77.1
     Eb71 . 9.52 174.2 -72.4
+  endcenterline
+  centerline
+    date 2023.09.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend ignore
     G34.201 G34.201-1 2.30 202.3 21.5
     # extend auto
@@ -27289,6 +28005,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G34.224-26 . 5.53 19.6 74.0
     G34.224-26 . 2.99 109.1 -84.4
     extend right
+  endcenterline
+  centerline
+    date 2023.10.01
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # reprise topo 1er octobre 2023
     G104-a3 G104-a4 3.14 159.3 -35.9
     # extend auto
@@ -27369,6 +28094,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G104-a9 . 0.13 1.9 10.3
     G104-a9 . 0.13 266.4 3.4
     extend right
+  endcenterline
+  centerline
+    date 2023.10.02
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Bas P. de l'Arche. topo 2 oct Thib Loïc Barnab
     G70.33 G70.33.1 15.88 137.2 -74.7
     # extend auto
@@ -27417,6 +28151,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70.33.4 . 1.44 60.8 -86.6
     G70.33.4 . 1.03 166.9 -2.4
     extend right
+  endcenterline
+  centerline
+    date 2023.10.02
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # vers l'autre puits derrière 
     G70.33.4 G70.33.4.1 6.09 72.1 8.3
     # extend auto
@@ -28487,6 +29230,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # jonction topo g34-201
     G70.33.69 G70.33.70 2.29 130.2 -42.3
+  endcenterline
+  centerline
+    date 2023.11.05
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # AF main courante 
     G70.2 G70.2-1 7.50 289.5 31.1
     # extend auto
@@ -28907,6 +29659,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70.2-47 . 1.01 170.4 2.5
     G70.2-47 . 3.32 183.2 81.1
     G70.2-47 . 1.27 190.4 -86.1
+  endcenterline
+  centerline
+    date 2023.11.05
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
    flags duplicate
     G75 G75.1 5.61 234.2 41.2
@@ -29016,6 +29777,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G75.10 . 0.83 16.9 14.1
     G75.10 . 1.43 39.4 20.3
     extend right
+  endcenterline
+  centerline
+    date 2023.11.15
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Lame de roc à gauche relai P Chevalier. départ topo 25 nov 23
     MeA6-a11 G87.138 4.24 167.8 -29.4
     # extend auto
@@ -29208,7 +29978,6 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # visée inverse au dessus de l'eau 
     G87.161 G87.160 2.15 215.8 12.0
     # extend auto
-    0 . 2.12 215.4 8.1
     extend right
   # visée inverse 
     G87.162 G87.161 1.31 299.0 -24.1
@@ -29334,7 +30103,6 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend ignore
     G87.170-1 G87.170-2 3.39 310.0 5.4
     # extend auto
-    0 . 3.56 310.1 5.6
     G87.170-2 . 0.15 196.5 69.3
     G87.170-2 . 0.43 49.7 54.5
     G87.170-2 . 0.54 219.9 5.7
@@ -29347,6 +30115,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage Eb3, jonction historique 
     G87.170-3 G87.170-4 4.14 270.8 18.8
+  endcenterline
+  centerline
+    date 2023.12.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # marqué bas du puits de Gaulle 
     Eb28 Eb28-1 9.66 264.2 -79.1
     # extend auto
@@ -29710,6 +30487,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage sur Eb26
     Eb28-1-a3 Eb28-1-a4 5.55 260.5 53.2
+  endcenterline
+  centerline
+    date 2023.12.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ en ramping 
     Me38 Me38-1 2.77 246.5 -1.9
     # extend auto
@@ -29766,6 +30552,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me38-5 . 3.76 230.6 0.1
     Me38-5 . 8.82 235.1 -0.2
     extend right
+  endcenterline
+  centerline
+    date 2023.12.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ Nils Barnabé vers Ajax 10.12.23
     G34.224-24 Ajax1 2.11 285.5 -13.9
     # extend auto
@@ -30275,6 +31070,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend left
   # bouclage en bas 
     Ajax15-2 Ajax15-3 3.66 212.3 -56.9
+  endcenterline
+  centerline
+    date 2024.02.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # pointe gros bloc
     Me48 Me48-1 11.61 166.4 5.8
     # extend auto
@@ -30737,6 +31541,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me48-28 . 3.03 162.1 -0.6
     Me48-28 . 0.29 50.2 -5.8
     extend right
+  endcenterline
+  centerline
+    date 2024.02.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ aval actif 
     Me48-27 Me48-27-1 1.24 310.9 -42.7
     # extend auto
@@ -30803,6 +31616,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me48-27-6 . 43.60 59.1 -80.5
     Me48-27-6 . 43.92 67.3 -75.0
     extend left
+  endcenterline
+  centerline
+    date 2024.02.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # vers galerie de la Vierge 
     G70.84 G70.84-1 4.97 198.9 0.2
     # extend auto
@@ -31152,6 +31974,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70.84-19 . 0.30 55.0 -87.9
     G70.84-19 . 1.46 325.4 88.3
     extend right
+  endcenterline
+  centerline
+    date 2024.02.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # colonne avec scotch et point noir 
     Me38 Me38-a1 10.57 3.9 -7.0
     # extend auto
@@ -31219,6 +32050,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me38-a5 . 5.74 316.9 -13.8
     Me38-a5 . 11.87 302.9 -13.2
     extend left
+  endcenterline
+  centerline
+    date 2024.02.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     Me32.13 Me32.13-1 5.62 141.6 15.4
     # extend auto
     Me32.13-1 . 0.64 94.4 85.0
@@ -31317,6 +32157,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me32.20 . 2.99 298.4 -5.8
     Me32.20 . 3.87 26.8 -2.5
     Me32.20 . 3.25 18.1 -0.8
+  endcenterline
+  centerline
+    date 2024.02.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     G70.85.1 G70.85.2 3.42 333.3 -27.8
     # extend auto
@@ -31630,6 +32479,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70.85.27 . 6.21 116.6 12.6
     G70.85.27 . 6.10 130.7 12.2
     extend vertical
+  endcenterline
+  centerline
+    date 2024.03.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # haut R2
     Me48-24 Me48-24-1 7.56 73.4 30.7
     # extend auto
@@ -31753,6 +32611,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me48-24-9 . 0.32 215.2 -76.6
     Me48-24-9 . 3.56 203.1 12.8
     extend right
+  endcenterline
+  centerline
+    date 2024.03.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     Me58 Me58-1 8.55 30.4 -0.5
     # extend auto
     Me58-1 . 1.86 57.7 87.2
@@ -32035,8 +32902,8 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # bord de la lucarne 
     Me58-8 Me58-9 8.13 23.6 -5.6
     # extend auto
-    Me58-8c . 0.93 199.7 88.5
-    Me58-8c . 0.32 306.6 -69.9
+    Me58-9 . 0.93 199.7 88.5
+    Me58-9 . 0.32 306.6 -69.9
     Me58-9 . 5.68 62.0 9.4
     Me58-9 . 2.52 81.4 16.1
     Me58-9 . 1.71 130.4 22.2
@@ -32065,6 +32932,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage S121
     Me58-10 Me58-11 12.17 10.5 -2.8
+  endcenterline
+  centerline
+    date 2024.03.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G70.93 G70.94 9.59 299.5 0.6
     # extend auto
     G70.94 . 3.05 256.5 76.0
@@ -32464,6 +33340,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage 
     G70.100-a5 G70.100-a6 2.61 46.4 7.2
+  endcenterline
+  centerline
+    date 2024.03.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend vertical
     Eb71 Eb72 2.77 85.3 -20.6
     # extend auto
@@ -32873,6 +33758,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Eb80-1 . 5.51 156.9 9.3
     Eb80-1 . 0.67 89.9 84.1
     Eb80-1 . 1.02 28.2 -85.2
+  endcenterline
+  centerline
+    date 2024.03.16
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     Ajax16 Ajax16-1 14.69 115.4 82.9
     Ajax16-1 . 0.82 253.8 -0.8
@@ -33173,6 +34067,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Ajax16-22 . 1.00 221.5 19.2
     Ajax16-22 . 4.13 238.9 21.0
     extend right
+  endcenterline
+  centerline
+    date 2024.04.20
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     Me32.20 Me32.21 4.70 278.3 -6.5
     # extend auto
     Me32.21 . 1.78 173.1 4.2
@@ -34273,6 +35176,16 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me32.77 . 1.57 202.0 5.2
     Me32.77 . 2.50 310.7 88.3
     Me32.77 . 0.15 180.7 -84.4
+
+  endcenterline
+  centerline
+    date 2024.04.20
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     Me32.77 Me32.77-1 2.93 335.1 -8.7
     # extend auto
@@ -34331,6 +35244,7 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage 
     Me32.77-5 Me32.77-6 1.37 296.3 -5.4
+
     Eb87 Eb87-1 3.34 55.1 -1.3
     # extend auto
     Eb87-1 . 0.61 271.5 5.6
@@ -36208,6 +37122,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
     Ba42-49 Ba42-50 6.95 311.6 63.8
     extend vertical
+  endcenterline
+  centerline
+    date 2024.05.08
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # étiquette galerie du Solitaire 
     Me48 Me48-a1 6.38 76.0 9.5
     # extend auto
@@ -38146,6 +39069,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me48-a34 . 9.99 279.3 -13.6
     Me48-a34 . 12.00 288.5 -14.4
     Me48-a34 . 5.41 309.0 -11.1
+  endcenterline
+  centerline
+    date 2024.05.08
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend left
     G70.2-47 G70.2-48 2.64 157.3 -7.1
     # extend auto
@@ -38756,6 +39688,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G70.2-100-2 . 3.77 20.4 8.1
     G70.2-100-2 . 14.99 107.2 69.8
     extend left
+  endcenterline
+  centerline
+    date 2024.05.20
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G149.94.7 G149.94.7-1 6.03 201.5 -5.0
     # extend auto
     G149.94.7-1 . 0.56 264.9 82.4
@@ -39067,6 +40008,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend left
   # marqué, suite très étroite 
     G149.94.7-12-10 G149.94.7-12-11 2.02 157.4 15.1
+  endcenterline
+  centerline
+    date 2024.05.20
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G149.94.7-12 G149.94.7-13 5.15 231.9 17.5
     # extend auto
     G149.94.7-13 . 1.13 262.3 -83.7
@@ -39232,6 +40182,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G149.87.1 . 0.14 147.5 7.5
     G149.87.1 . 5.11 354.7 -2.9
     extend right
+  endcenterline
+  centerline
+    date 2024.05.20
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     G149.87.1 G149.87.1-1 5.18 354.3 -1.8
     # extend auto
     G149.87.1-1 . 0.42 295.2 86.8
@@ -39459,6 +40418,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # marquer vernis rive droite arrêt topo, on s'arrête parce qu'on a un train à prendre, Alain faudra que tu ailles voir la suite, c'est majeur
     G149.87.1-26 G149.87.1-27 1.10 279.3 -3.5
+  endcenterline
+  centerline
+    date 2024.07.21
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend left
   # méandre rivière inconnue vers amont
     G84.29 G84.29-1 2.22 88.3 -0.1
@@ -40065,6 +41033,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G84.29-66 . 1.79 114.2 8.3
     G84.29-66 . 1.64 151.6 5.0
     G84.29-66 . 1.01 274.3 -88.8
+  endcenterline
+  centerline
+    date 2024.10.06
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
   # pas sûr d'être reparti du bon point 
     G84.39.2 G84.39.5 1.05 18.7 24.4
@@ -40076,6 +41053,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     G84.39.5 . 1.85 20.4 -9.3
     G84.39.5 . 3.19 29.9 -9.3
     G84.39.5 . 4.59 24.6 -7.9
+  endcenterline
+  centerline
+    date 2024.09.29
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     G84.39.2 G84.39.6 5.40 27.4 -5.8
     # extend auto
@@ -40173,6 +41159,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me32.35-3-4 . 0.71 104.4 9.2
     Me32.35-3-4 . 0.46 14.0 3.1
     extend left
+  endcenterline
+  centerline
+    date 2024.09.29
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     Me32.35-3 Me32.35-4 6.40 138.3 13.9
     # extend auto
     Me32.35-4 . 0.37 161.9 85.8
@@ -41311,6 +42306,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend right
   # bouclage 
     Me32.35-14-6 Me32.35-14-7 3.78 9.9 -8.4
+  endcenterline
+  centerline
+    date 2024.09.29
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend left
     Me32.52 Me32.52-1 3.71 103.6 -10.3
     # extend auto
@@ -41404,6 +42408,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me32.52-9 . 5.27 240.5 6.8
     Me32.52-9 . 3.97 256.1 12.2
     Me32.52-9 . 2.98 212.3 42.0
+  endcenterline
+  centerline
+    date 2024.10.06
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # habillage complémentaire tour du puits 
     Me44 . 8.61 214.5 -11.1
     Me44 . 7.98 204.2 -10.8
@@ -42341,6 +43354,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # bouclage 
     Me44-6-7-3 Me44-6-7-4 5.89 46.8 8.1
     extend left
+  endcenterline
+  centerline
+    date 2024.10.06
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # entrée de la galerie 
     Me52 Me52-1 6.95 196.9 7.9
     # extend auto
@@ -42511,6 +43533,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend left
   # bouclage 
     Me52-10 Me52-11 5.96 109.6 10.7
+  endcenterline
+  centerline
+    date 2024.10.19
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     Me32.52-9 R1 4.45 239.6 2.6
     # extend auto
     R1 . 1.08 264.5 19.9
@@ -43387,6 +44418,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend ignore
     R21-5-1 R21-5-2 9.83 144.9 10.4
     extend vertical
+  endcenterline
+  centerline
+    date 2024.10.19
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # vers l'aval 
     Me32.52-9 Ra1 4.08 79.6 10.1
     # extend auto
@@ -43701,6 +44741,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Ra25 . 1.47 276.3 -11.7
     Ra25 . 0.88 212.9 -85.5
     extend vertical
+  endcenterline
+  centerline
+    date 2024.11.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # tête premier puits 
     R2-9 R2-10 2.02 249.0 4.4
     # extend auto
@@ -43852,7 +44901,7 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   # marqué, au col, dans le dos quand on est sur la MC 
     R2-18 R2-19 2.87 63.1 -30.0
     # extend auto
-    R2-18-4 . 0.56 63.3 -30.1
+    R2-19 . 0.56 63.3 -30.1
     R2-19 . 6.78 102.9 80.3
     R2-19 . 9.00 94.2 -81.4
     R2-19 . 1.94 44.9 -4.0
@@ -43977,6 +45026,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     extend left
   # bouclage escalier de service 
     R2-12-8 R2-12-9 2.56 124.5 14.9
+  endcenterline
+  centerline
+    date 2024.11.10
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     # extend auto
     Me32.62 . 1.12 293.5 -7.3
     Me32.62 . 1.67 264.4 -6.7
@@ -44025,6 +45083,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     Me32.62-3 . 0.86 310.6 -38.2
     Me32.62-3 . 1.40 10.8 -26.5
     extend right
+  endcenterline
+  centerline
+    date 2024.11.30
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ topo 30 Nov 2024 Nils Alain Bar Thib Gerv. AF sommet P des bigleux 
     G70.33.53 G70.33.53.1 3.15 354.5 -16.9
     # extend auto
@@ -44666,6 +45733,15 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
     # extend auto
     G70.33.53.6.6 . 4.34 93.3 2.2
     extend left
+  endcenterline
+  centerline
+    date 2024.11.30
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # cairn bas P60 vers étroiture 
     G70.33.70 G70.33.71 3.73 97.8 43.0
     # extend auto

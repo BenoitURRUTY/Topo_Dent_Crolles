@@ -1,0 +1,83 @@
+encoding utf-8
+# 2025.10.21 created by TopoDroid v 6.3.20
+
+survey Trou_du_Glaz_250426_A -title "Trou du Glaz 250426 A"
+    # Guiers_Merelau 
+
+  centerline
+
+    date 2025.04.26 
+    # team Thib Loïc Barnab 
+    # declination 2.1800 degrees
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+
+  # bouclage marquage sur colonne 
+    G149.94.7-11-7 G149.94.7-11-8 2.48 344.5 -6.8
+    extend left
+    G87.127.a12 G87.127.a12.1 1.18 174.8 6.2
+    # extend auto
+    G87.127.a12.1 . 0.66 278.7 6.8
+    G87.127.a12.1 . 0.44 46.1 83.0
+    G87.127.a12.1 . 0.83 148.3 13.0
+    G87.127.a12.1 . 0.16 258.6 -86.9
+    extend left
+    G87.127.a12.1 G87.127.a12.2 2.01 205.6 7.1
+    # extend auto
+    G87.127.a12.2 . 0.16 28.0 88.6
+    G87.127.a12.2 . 0.44 299.4 -3.8
+    G87.127.a12.2 . 0.71 106.7 4.6
+    G87.127.a12.2 . 2.05 217.2 1.9
+    extend left
+    G87.127.a12.2 G87.127.a12.3 2.00 217.2 1.8
+    # extend auto
+    G87.127.a12.3 . 0.27 13.9 79.5
+    G87.127.a12.3 . 0.47 134.3 -83.2
+    G87.127.a12.3 . 0.70 100.7 12.1
+    G87.127.a12.3 . 0.16 247.3 2.6
+    G87.127.a12.3 . 1.91 149.4 12.0
+    G87.127.a12.3 . 1.99 172.8 10.9
+    extend left
+    G87.127.a12.3 G87.127.a12.4 2.44 158.3 11.4
+    # extend auto
+    G87.127.a12.4 . 0.40 79.8 10.2
+    G87.127.a12.4 . 0.48 260.0 3.3
+    G87.127.a12.4 . 0.26 304.3 71.3
+    G87.127.a12.4 . 0.68 209.9 -87.2
+    extend left
+    G87.127.a12.4 G87.127.a12.5 1.61 201.2 11.6
+    # extend auto
+    G87.127.a12.5 . 0.40 123.2 3.3
+    G87.127.a12.5 . 0.22 258.0 17.6
+    G87.127.a12.5 . 5.98 176.4 9.8
+    extend left
+    G87.127.a12.5 G87.127.a12.6 3.28 175.6 10.3
+    # extend auto
+    G87.127.a12.6 . 0.18 281.5 2.5
+    G87.127.a12.6 . 0.14 83.1 6.5
+    G87.127.a12.6 . 0.40 288.4 81.5
+    G87.127.a12.6 . 0.87 142.6 -83.6
+    G87.127.a12.6 . 3.93 170.3 9.8
+    G87.127.a12.6 . 2.88 166.1 8.2
+    G87.127.a12.6 . 1.85 185.5 4.2
+    extend left
+  # cut sur trop étroit vague suite peu engageante no futur
+    G87.127.a12.6 G87.127.a12.7 3.27 170.8 9.2
+  endcenterline
+
+  # input "Trou_du_Glaz_250426_A-2p.th2"
+  # input "Trou_du_Glaz_250426_A-2s.th2"
+  # input "Trou_du_Glaz_250426_A-xh-G34.152.th2"
+
+  # map m2p -projection plan
+  #   Trou_du_Glaz_250426_A-2p
+  #   Trou_du_Glaz_250426_A-2p1
+  # endmap
+  # map m2s -projection extended
+  #   Trou_du_Glaz_250426_A-2s
+  # endmap
+
+endsurvey

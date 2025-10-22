@@ -7,9 +7,15 @@ survey Chevalier_240608 -title "Chevalier 240608"
   centerline
 
      cs UTM31
-    fix GPS-3-Annette 723714.9  5020903.4   1717.9
-    fix GPS6MMM 723836.7   5021023.5  1679.3  
-    
+    fix A0 723714.60	5020904.40	1718.30 # Annette
+    fix ext0 723784.90	5020987.60	1699.70 # Chevalier
+    fix GPS6MMM 723836.7   5021023.5  1679.3  # MMM
+    fix M13-10-25 724051.40	5021296.00	1688.30 # Petzl
+    fix M13-10-19 724049.90	5021307.10	1748.60 # Montagnards
+    fix M39-45 723961.80	5021247.70	1890.50 #Nid de choucas
+
+
+
     date 2020.06.10 
     units length meters
     units compass clino degrees

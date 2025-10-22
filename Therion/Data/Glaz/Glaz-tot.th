@@ -1,0 +1,77 @@
+encoding  utf-8
+
+survey Glaz -title "Trou du Glaz"
+  #  input Data/Chevalier_Annette.th
+
+
+
+   input Data/Trou_du_Glaz_241131.th
+   input Data/Trou_du_Glaz_250126.th
+   input Data/Trou_du_Glaz_250322.th
+   input Data/Trou_du_Glaz_250405.th
+   input Data/Trou_du_Glaz_250426_A.th
+    input Data/Trou_du_Glaz_250713.th
+    input Data/Trou_du_Glaz_250726.th
+    input Data/Trou_du_Glaz_250815.th
+    input Data/Trou_du_Glaz_250817.th
+    input Data/Trou_du_Glaz_251004.th
+    input Data/Trou_du_Glaz_251012.th
+
+    equate Me55@Trou_du_Glaz_241131 Me55@Trou_du_Glaz_250126
+    equate Me56@Trou_du_Glaz_241131 Me56@Trou_du_Glaz_250126
+    equate  Me44-6-9@Trou_du_Glaz_241131  Me44-6-9@Trou_du_Glaz_250126
+
+    equate Eb70@Trou_du_Glaz_241131 Eb70@Trou_du_Glaz_250322
+    equate Eb77@Trou_du_Glaz_241131 Eb77@Trou_du_Glaz_250322
+
+    equate G149.94.7-24@Trou_du_Glaz_241131 G149.94.7-24@Trou_du_Glaz_250405
+    equate G149.94.7-21@Trou_du_Glaz_241131 G149.94.7-21@Trou_du_Glaz_250405
+    equate G149.94.7-20@Trou_du_Glaz_241131 G149.94.7-20@Trou_du_Glaz_250405
+    equate G149.94.7-18@Trou_du_Glaz_241131 G149.94.7-18@Trou_du_Glaz_250405
+    equate  G149.94.7-17@Trou_du_Glaz_241131  G149.94.7-17@Trou_du_Glaz_250405
+    equate G149.94.7-9@Trou_du_Glaz_241131 G149.94.7-9@Trou_du_Glaz_250405
+    equate G149.94.7-11@Trou_du_Glaz_241131 G149.94.7-11@Trou_du_Glaz_250405
+
+
+
+    equate G149.94.7-11-7@Trou_du_Glaz_250405 G149.94.7-11-7@Trou_du_Glaz_250426_A
+    equate G87.127.a12@Trou_du_Glaz_241131 G87.127.a12@Trou_du_Glaz_250426_A
+
+    equate Eb51@Trou_du_Glaz_241131  Eb51@Trou_du_Glaz_250713
+
+    equate G34.118@Trou_du_Glaz_241131 G34.118@Trou_du_Glaz_250726
+    equate Me3@Trou_du_Glaz_241131 Me3@Trou_du_Glaz_250726
+
+    equate G91.3@Trou_du_Glaz_241131 G91.3@Trou_du_Glaz_250815
+    equate Ba42-47@Trou_du_Glaz_241131 Ba42-47@Trou_du_Glaz_250815
+    equate Ba42-18@Trou_du_Glaz_241131 Ba42-18@Trou_du_Glaz_250815
+    equate Ba42-15@Trou_du_Glaz_241131 Ba42-15@Trou_du_Glaz_250815
+    equate Ba42-4@Trou_du_Glaz_241131 Ba42-4@Trou_du_Glaz_250815
+
+    equate G70.33.18@Trou_du_Glaz_241131 G70.33.18@Trou_du_Glaz_250817
+    equate G70.33.48@Trou_du_Glaz_241131 G70.33.48@Trou_du_Glaz_250817
+    equate G70.33.53.18@Trou_du_Glaz_241131 G70.33.53.18@Trou_du_Glaz_250817
+
+    equate Re4@Trou_du_Glaz_250817 Re4@Trou_du_Glaz_251004
+    equate  Re13-1@Trou_du_Glaz_250817  Re13-1@Trou_du_Glaz_251004
+    equate Re18-b2@Trou_du_Glaz_250817 Re18-b2@Trou_du_Glaz_251004
+    equate MeA6-14@Trou_du_Glaz_241131 MeA6-14@Trou_du_Glaz_251004
+
+    equate G34.27-16@Trou_du_Glaz_241131 G34.27-16@Trou_du_Glaz_251012
+
+
+
+ 
+##########################################################################################
+## Pour importer les différents fichiers de dessins en plan
+  ## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
+  ## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
+
+# input Data/Puits_neige.th2
+# input Data/Puits_neige-coupe-elevation.th2
+
+# input Puits_neige-maps.th
+
+
+endsurvey
+
