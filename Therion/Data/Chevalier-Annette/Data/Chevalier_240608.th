@@ -2,39 +2,29 @@ encoding utf-8
 # 2025.10.16 created by TopoDroid v 6.3.20
 
 survey Chevalier_240608 -title "Chevalier 240608"
+# team Barnabé Léa Loïc Alain 
 
   centerline
-    cs long-lat
 
-    fix C0 5.854611 45.306722 1694
-    date 2024.05.31 
-    # team Barnabé Léa Loïc Alain 
-    # declination 2.1800 degrees
+     cs UTM31
+    fix GPS-3-Annette 723714.9  5020903.4   1717.9
+    fix GPS6MMM 723836.7   5021023.5  1679.3  
+    
+    date 2020.06.10 
     units length meters
     units compass clino degrees
     data normal from to length compass clino
-    # extend auto
-    A0 . 4.75 217.2 3.8
-    A0 . 6.50 215.4 12.1
-    A0 . 5.44 241.9 5.9
-    A0 . 1.31 281.0 2.5
-    A0 . 5.24 309.6 -0.9
-    A0 . 8.17 325.3 -3.2
-    A0 . 9.03 335.9 -3.7
-    A0 . 9.71 347.4 -5.7
-    A0 . 5.57 352.7 -7.3
-    A0 . 5.57 357.6 -5.5
-    A0 . 9.23 358.9 -6.0
-    A0 . 7.19 14.8 -6.6
-    A0 . 6.20 21.2 -5.9
-    A0 . 5.24 30.2 -3.7
-    A0 . 5.32 38.7 -2.6
-    A0 . 14.52 359.5 -10.2
     extend vertical
    flags surface
   # col plat entrée de Chevalier 
     ext0 C0 3.63 10.0 22.0
-   flags not surface
+  endcenterline
+  centerline
+    date 2020.06.10 
+    flags not surface
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     # extend auto
     C0 . 6.61 256.3 25.0
     C0 . 2.80 78.7 5.9
@@ -933,6 +923,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     C23-10 . 0.90 227.7 83.0
     C23-10 . 1.58 263.5 -85.6
     extend right
+  endcenterline
+  centerline
+    date 2020.06.10 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # pied de l'escalade actif aujourd'hui. 
     C23-10 C23-10-1 3.84 162.5 -13.6
     # extend auto
@@ -1162,6 +1158,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend left
   # bouclage sur C8
     C23-14 C23-15 11.87 240.7 6.7
+    endcenterline
+  centerline
+    date 2020.06.10 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
    flags surface
     ext0 trav1 4.45 142.8 -36.3
@@ -1202,6 +1204,15 @@ survey Chevalier_240608 -title "Chevalier 240608"
    flags surface
     trav11 trav13 6.43 52.3 -17.9
    flags not surface
+   flags surface
+    trav13 GPS6MMM 0.6 0 -90
+   flags not surface
+  endcenterline
+  centerline
+    date 2020.06.10 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # à renommer C23-10-23 vers suivant
     C23-10-23 C23-10-24bis 1.43 157.6 3.8
     # extend auto
@@ -1216,6 +1227,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     # extend auto
     C23-10-25 . 44.56 49.6 -10.5
     extend left
+  endcenterline
+  centerline
+  date 2020.07.04 
+  units length meters
+  units compass clino degrees
+  data normal from to length compass clino
     C23 C24 10.97 49.7 -10.6
     # extend auto
     C24 . 11.00 268.5 1.3
@@ -1485,6 +1502,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     C42 . 0.34 106.8 -77.2
     C42 . 7.23 288.5 -2.2
     C42 . 7.44 291.8 -2.0
+  endcenterline
+  centerline
+    date 2020.11.07 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend left
     C42 C43 17.68 346.8 -4.5
     # extend auto
@@ -2190,6 +2213,14 @@ survey Chevalier_240608 -title "Chevalier 240608"
    flags surface
     exta5 exta6 11.92 232.8 8.0
    flags not surface
+   GPS-3-Annette exta6 1.07 345.2 20
+
+  endcenterline
+  centerline
+    date 2020.11.21 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ dans la faille 
     C38-15 C38-16 14.11 215.3 11.2
     # extend auto
@@ -2285,6 +2316,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     C38-22 . 12.50 273.3 83.2
     C38-22 . 2.17 316.0 -84.8
     extend left
+  endcenterline
+  centerline
+    date 2020.11.21 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # Y du haut de l'escalade. 
     C38-22 C38-22-1 14.34 195.1 57.6
     extend ignore
@@ -2295,6 +2332,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     C38-22-1a . 22.14 231.3 43.3
     C38-22 . 18.76 234.1 43.7
     C38-22 . 17.96 227.2 44.5
+  endcenterline
+  centerline
+    date 2020.11.21 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     C38-22 C38-23 0.95 154.1 -23.1
     # extend auto
@@ -2784,6 +2827,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     C38-39-6 . 2.82 46.7 -81.6
     C38-39-6 . 3.59 101.9 78.3
     C38-39-6 . 3.33 131.3 82.1
+  endcenterline
+  centerline
+    date 2020.11.21 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
     C38-2 C38-2-1 11.31 41.8 -1.4
     # extend auto
@@ -2903,6 +2952,14 @@ survey Chevalier_240608 -title "Chevalier 240608"
   # sommet du boc à l'entrée d'Annette
     extb11 A0 5.29 224.0 2.4
    flags not surface
+  endcenterline
+  centerline
+    date 2015.05.29 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # recalage bon cairn. 
+    C38-17 C38-17a 3.00 260.0 0.0
     # extend auto
     C38-17-1 - 0.50 191.1 0.0
     C38-17-1 - 1.00 11.1 0.0
@@ -2926,8 +2983,7 @@ survey Chevalier_240608 -title "Chevalier 240608"
     C38-17-3 C38-17-4 14.75 332.2 80.5
   # sommet du puits, pincé sans suite. 
     C38-17-4 C38-17-5 22.34 312.3 72.7
-  # recalage bon cairn. 
-    C38-17 C38-17a 3.00 260.0 0.0
+
     # extend auto
     C38-22-2 - 0.70 72.0 0.0
     C38-22-2 - 1.00 252.0 0.0
@@ -3111,6 +3167,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
   # dans l'axe de la visée, jonction avec le bas. 
     C38-22-7 C38-22-7a 8.10 98.0 -32.0
     extend left
+  endcenterline
+  centerline
+    date 2021.04.10 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # premier frac du puits des Montagnards. 
     M4 M5 6.61 331.3 65.3
   # second frac avant le palier. 
@@ -3410,6 +3472,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     # extend auto
     M37 . 48.05 339.1 68.4
     extend right
+  endcenterline
+  centerline
+    date 2021.04.10 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # départ topo du nœud vers Petzl
     C38-45 C38-46 3.31 202.5 1.4
     # extend auto
@@ -3984,6 +4052,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     M13-10-23 M13-10-24 11.23 190.2 -52.4
    flags not surface
    flags surface
+  endcenterline
+  centerline
+    date 2021.04.10 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # entrée grotte Petzl 
     M13-10-24 M13-10-25 13.68 234.7 -20.0
    flags not surface
@@ -4869,6 +4943,30 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend right
   # fond étroit sans courant d'air un peu après. 
     M37b M37c 8.19 189.3 -78.3
+  endcenterline
+  centerline
+    date 2021.06.05 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend vertical
+        # extend auto
+    A0 . 4.75 217.2 3.8
+    A0 . 6.50 215.4 12.1
+    A0 . 5.44 241.9 5.9
+    A0 . 1.31 281.0 2.5
+    A0 . 5.24 309.6 -0.9
+    A0 . 8.17 325.3 -3.2
+    A0 . 9.03 335.9 -3.7
+    A0 . 9.71 347.4 -5.7
+    A0 . 5.57 352.7 -7.3
+    A0 . 5.57 357.6 -5.5
+    A0 . 9.23 358.9 -6.0
+    A0 . 7.19 14.8 -6.6
+    A0 . 6.20 21.2 -5.9
+    A0 . 5.24 30.2 -3.7
+    A0 . 5.32 38.7 -2.6
+    A0 . 14.52 359.5 -10.2
     extend left
   # entrée d'Annette, rail. 
     A0 A1 9.62 4.0 -7.2
@@ -7278,6 +7376,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend right
   # 2 galeries parallèles, arrêt improvisé cailloux blanc. 
     A67-9 A67-10 7.58 203.6 -12.2
+  endcenterline
+  centerline
+    date 2022.04.30 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend left
   # escalade puits du bloc coincé, première déviation. 
     C38-15-1 C38-15-1-1 5.85 268.5 85.0
@@ -7405,6 +7509,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend left
   # étroiture desobée, petite salle après et ça queute
     C38-15-1-11b C38-15-1-11c 2.30 90.2 -1.9
+  endcenterline
+  centerline
+    date 2022.04.30 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # puits remontant en libre. 
     C38-15-a7 C38-15-a7-1 3.28 334.4 58.5
     # extend auto
@@ -7434,6 +7544,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend left
   # étroit, boc coincé, noir derrière, je les entend grimper dans le puits Edmond.
     C38-15-a7-3 C38-15-a7-4 9.46 275.5 63.0
+  endcenterline
+  centerline
+    date 2022.04.30 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     C38-15-3 C38-15-3-1 6.35 277.4 57.0
     # extend auto
     C38-15-3-1 . 2.76 199.4 12.0
@@ -7558,6 +7674,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     C38-15-3-13 . 1.50 265.8 11.3
     C38-15-3-13 . 1.34 307.4 6.3
     C38-15-3-13 . 1.27 32.1 0.1
+  endcenterline
+  centerline
+    date 2022.08.30 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend left
   # départ vers réseau des Excités 
     M13 E37-22 1.75 318.5 14.9
@@ -7624,6 +7746,13 @@ survey Chevalier_240608 -title "Chevalier 240608"
   # Jonction E 37 15 Excités
     E37-16 E37-15 1.95 221.8 4.3
     extend left
+  endcenterline
+  centerline
+    date 2022.11.19
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend vertical
   # Départ 19 nov Lionel Alain Barnabé 
     A59-4 A59-4-1 2.27 38.3 10.0
     # extend auto
@@ -7760,6 +7889,13 @@ survey Chevalier_240608 -title "Chevalier 240608"
     A59-4-18 . 2.15 333.1 -3.9
     A59-4-18 . 2.04 353.3 -6.8
     extend left
+  endcenterline
+  centerline
+    date 2022.11.19 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend vertical
   # Départ du picnic vers le bas
     A67 A67-a1 4.80 343.9 -21.2
     # extend auto
@@ -8000,6 +8136,13 @@ survey Chevalier_240608 -title "Chevalier 240608"
     A78-13 . 2.06 314.6 72.4
     A78-13 . 1.18 75.1 -73.1
     extend left
+  endcenterline
+  centerline
+    date 2022.11.19 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend vertical
   # reprise trajet normal 
     A78 A79 9.57 351.4 -29.5
     # extend auto
@@ -8407,6 +8550,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend right
   # bouclage A87
     A96-6 A96-7 7.70 214.9 5.1
+  endcenterline
+  centerline
+    date 2022.11.26 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend vertical
   # départ 26 nov Gervais Barnabé Thib' Loïc Matt
     C38-15-3-13 C38-15-3-14 1.34 259.0 -49.7
@@ -8530,6 +8679,13 @@ survey Chevalier_240608 -title "Chevalier 240608"
     C38-15-3-25 . 3.15 223.3 -6.5
   # suite
     C38-15-3-25 . 6.24 243.0 -15.7
+  endcenterline
+  centerline
+    date 2023.01.08 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend vertical
     extend left
     A66-4 A66-5 2.33 19.5 -4.5
     # extend auto
@@ -8562,6 +8718,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend left
     A66-8 A66-9 3.72 71.5 28.0
     A66-5 A66-6 2.84 61.4 10.6
+  endcenterline
+  centerline
+    date 2023.05.29 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend vertical
   # départ dans la lucarne 
     C38-15-3-6 Ed1 5.89 97.7 18.6
@@ -8947,6 +9109,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     Ed2-2-2 . 1.55 94.4 -84.9
     Ed2-2-2 . 2.04 225.0 -43.6
     Ed2-2-2 . 5.07 69.3 -35.7
+  endcenterline
+  centerline
+    date 2023.06.16 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
     extend right
   # décalage pour viver le sommet 
     Ed10-8 Ed10-9 2.72 155.6 6.5
@@ -9195,6 +9363,13 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend right
   # fond de a faille bouché 
     Ed10-4-10 Ed10-4-11 10.17 220.3 -42.3
+  endcenterline
+  centerline
+    date 2023.07.26 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend vertical
     extend left
     A5 A5-1 8.64 73.0 52.0
     # extend auto
@@ -9275,6 +9450,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     A5-6 . 0.46 169.3 -80.7
     extend left
     A5-6 A5-7 3.17 311.7 64.0
+  endcenterline
+  centerline
+    date 2024.05.19 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # point gauche du frac
     C50 C50-a1 9.23 45.4 42.4
     # extend auto
@@ -9418,6 +9599,12 @@ survey Chevalier_240608 -title "Chevalier 240608"
     extend vertical
   # bouclage dans le puits de la Toussaint 
     C50-a9 C50-a10 3.79 82.5 -65.6
+  endcenterline
+  centerline
+    date 2024.05.31 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
   # boyau de la crème de marrons 
     M48-5 M48-5-1 5.33 83.0 -47.1
     # extend auto
