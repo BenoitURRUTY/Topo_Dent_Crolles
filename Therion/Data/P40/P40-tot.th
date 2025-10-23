@@ -1,0 +1,7 @@
+encoding  utf-8
+
+survey Dent -title "Dent de Crolles"
+
+input data/P40_230823.th
+
+endsurvey

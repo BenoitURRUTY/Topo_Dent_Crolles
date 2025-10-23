@@ -1,18 +1,21 @@
 encoding utf-8
 # 2025.10.21 created by TopoDroid v 6.3.20
 
-survey P40_23xxxx -title "P40 23xxxx"
-    # point gps sur broche de droite 
+survey Guiers_Mort_250711 -title "Guiers Mort 250711"
+    # en direction de seyssins 
 
   centerline
-    cs long-lat
-    # fix Pq0 5.853513 45.312488 1939
-    date 2023.08.16 
-    # team Alain 
+
+    date 2025.06.29 
+    # team Alain Nico 
     # declination 2.7000 degrees
     units length meters
     units compass clino degrees
     data normal from to length compass clino
+    extend left
+    Gm1 Gmext0 3.97 208.6 10.4
   endcenterline
+
+
 
 endsurvey

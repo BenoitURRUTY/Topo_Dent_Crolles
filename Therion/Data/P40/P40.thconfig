@@ -2,7 +2,7 @@ encoding  utf-8
 
 # 1-SOURCES 
 
-source Annette-tot.th
+source P40-tot.th
 
 # Add entrances coordinates
 # input legendes/entrances_coordinates.th
@@ -31,7 +31,7 @@ layout my_layout
 	# copy headerl
 	copy langue-fr
    # Titre  
-   doc-title "Chevalier-Annette"
+   doc-title "P40s"
    # Auteur
    doc-author "Benoît Urruty"
   
@@ -151,7 +151,7 @@ layout my_layout
 	endcode  
 
 # add extended-elev on the same pdf
-# map-image 105 -100 sw Outputs/Chevalier-Annette-coupe.pdf
+# map-image 105 -100 sw Outputs/P40s-coupe.pdf
 
 endlayout
 
@@ -164,7 +164,7 @@ layout my_layout-coupe
 	copy langue-fr
 	  
    # Titre  
-   doc-title "Chevalier-Annette"
+   doc-title "P40s"
    # Auteur
    doc-author "Benoit Urruty"
   
@@ -285,21 +285,21 @@ endlayout
 
   
 # 3-EXPORTS   
-export map -fmt xvi -layout xviexport -o Data/Chevalier-Annette-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Chevalier-Annette-coupe.xvi
-# export map -proj [elevation 17] -layout xviexport -fmt xvi -o Data/Chevalier-Annette-coupe-elevation.xvi 
+export map -fmt xvi -layout xviexport -o Data/P40-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/P40-coupe.xvi
+# export map -proj [elevation 17] -layout xviexport -fmt xvi -o Data/P40-coupe-elevation.xvi 
 
 # Select maps
-# select MP-Chevalier-Annette-plan-tot@Chevalier-Annette
-# select MC-Chevalier-Annette-coupe-tot@Chevalier-Annette
+# select MP-P40-plan-tot@P40
+# select MC-P40-coupe-tot@P40
 	 
-# export map -projection extended -layout my_layout-coupe -o Outputs/Chevalier-Annette-coupe.pdf 
-export map -o Outputs/Chevalier-Annette-plan.pdf -layout my_layout
+export map -projection extended -layout my_layout-coupe -o Outputs/P40-coupe.pdf 
+export map -o Outputs/P40-plan.pdf -layout my_layout
  
-export model -o Outputs/Chevalier-Annette.lox
+export model -o Outputs/P40.lox
   
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Chevalier-Annette -layout my_layout
+export map -proj plan -fmt esri -o Outputs/P40 -layout my_layout
   
 # Export des fichiers kml
-export model -fmt kml -o Outputs/Chevalier-Annette.kml
+export model -fmt kml -o Outputs/P40.kml

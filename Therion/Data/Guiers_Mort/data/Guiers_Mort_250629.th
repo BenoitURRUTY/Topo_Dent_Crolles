@@ -1,0 +1,98 @@
+encoding utf-8
+# 2025.10.21 created by TopoDroid v 6.3.20
+
+survey Guiers_Mort_250629 -title "Guiers Mort 250629"
+    # en direction de seyssins 
+
+  centerline
+
+    date 2025.06.29 
+    # team Alain Nico 
+    # declination 2.7000 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+ 
+    Gm0 Gmext1 2.06 291.6 11.7
+    extend vertical
+    Gmext1 Gmext2 5.46 276.3 85.7
+    extend left
+    Gmext2 Gmext3 2.30 141.3 75.1
+    Gmext3 Gmext4 4.91 198.1 63.0
+    extend right
+  # pulse de gauche, entrée
+    Gmext4 Gmh0 2.41 90.5 25.3
+    # extend auto
+    Gmh0 . 2.43 278.0 -1.9
+    Gmh0 . 1.12 39.6 13.3
+    Gmh0 . 0.25 161.5 28.9
+    Gmh0 . 1.27 271.6 -31.7
+    Gmh0 . 0.56 261.4 78.4
+    Gmh0 . 3.78 258.2 0.1
+    Gmh0 . 4.21 252.1 0.8
+    Gmh0 . 3.13 233.0 1.3
+    Gmh0 . 0.30 227.8 7.2
+    Gmh0 . 3.09 233.3 1.3
+    extend left
+    Gmh0 Gmh1 4.39 256.4 1.1
+    # extend auto
+    Gmh1 . 0.69 132.3 0.6
+    Gmh1 . 0.14 324.6 19.4
+    Gmh1 . 0.32 180.0 77.0
+    Gmh1 . 0.20 200.3 -79.7
+    extend left
+    Gmh1 Gmh2 2.78 199.5 3.2
+    # extend auto
+    Gmh2 . 0.73 109.2 5.1
+    Gmh2 . 0.27 304.0 21.3
+    Gmh2 . 0.42 98.0 84.8
+    Gmh2 . 0.28 104.6 -79.3
+    Gmh2 . 1.07 9.2 0.1
+    Gmh2 . 1.40 31.5 4.5
+    Gmh2 . 1.67 60.9 -0.5
+    Gmh2 . 1.24 154.4 6.8
+    Gmh2 . 2.10 183.8 6.6
+    Gmh2 . 1.34 209.3 4.8
+    extend left
+    Gmh2 Gmh3 2.56 193.7 5.0
+    # extend auto
+    Gmh3 . 0.27 141.3 8.8
+    Gmh3 . 1.34 314.4 -7.0
+    Gmh3 . 0.54 311.5 77.5
+    Gmh3 . 0.44 305.2 -80.6
+    Gmh3 . 0.73 225.3 4.3
+    Gmh3 . 1.66 232.9 -3.0
+    Gmh3 . 1.08 253.9 2.2
+    Gmh3 . 1.77 278.4 -0.4
+    Gmh3 . 1.27 303.0 1.7
+    Gmh3 . 2.44 281.3 -10.4
+    extend left
+    Gmh3 Gmh4 3.49 241.3 -7.5
+    # extend auto
+    Gmh4 . 1.02 125.5 4.3
+    Gmh4 . 0.56 314.6 5.0
+    Gmh4 . 0.50 113.5 69.2
+    Gmh4 . 0.17 147.7 -71.9
+    Gmh4 . 1.02 251.9 3.2
+    Gmh4 . 1.99 229.2 2.2
+    Gmh4 . 1.46 157.5 2.7
+    Gmh4 . 2.94 184.3 0.4
+    Gmh4 . 3.48 194.6 0.6
+    Gmh4 . 3.88 217.7 0.8
+    extend ignore
+  # colmaté, petite trémie au fond, pas de courant d'air 
+    Gmh4 Gmh5 4.76 210.5 1.6
+  endcenterline
+
+  # input "Guiers_Mort_250629-1p.th2"
+  # input "Guiers_Mort_250629-1s.th2"
+
+  # map m1p -projection plan
+  #   Guiers_Mort_250629-1p
+  # endmap
+  # map m1s -projection extended
+  #   Guiers_Mort_250629-1s
+  # endmap
+
+endsurvey

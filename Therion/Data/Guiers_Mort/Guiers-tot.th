@@ -1,0 +1,8 @@
+encoding  utf-8
+
+survey Guiers-Mort -title "Guiers Mort"
+
+
+input data/Guiers_Mort_240505.th
+
+endsurvey
