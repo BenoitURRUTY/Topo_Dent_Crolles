@@ -8,7 +8,7 @@ source Dent-tot.th
 # input legendes/entrances_coordinates.th
 
 # Add config file
-# input ../config.thc 
+input ../config.thc 
   
 # 2-LAYOUT   
 
@@ -119,8 +119,8 @@ layout my_layout
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
    
-   symbol-hide line survey
-   #symbol-hide point cave-station
+   # symbol-hide line survey
+   symbol-hide point cave-station
 
    #debug station-names
    #debug scrap-names
@@ -302,13 +302,15 @@ endlayout
 # select MP-Dent-Crolles-plan-tot@Dent-Crolles
 # select MC-Dent-Crolles-coupe-tot@Dent-Crolles
 	 
-# export map -projection extended -layout my_layout-coupe -o Outputs/Dent-Crolles-coupe.pdf 
-# export map -o Outputs/Dent-Crolles-plan.pdf -layout my_layout
- 
+export map -o Outputs/Dent-Crolles-plan.pdf -layout my_layout
+#  export map -proj [elevation 17] -layout my_layout-coupe -o Outputs/Dent-Crolles-coupe.pdf 
+
 export model -o Outputs/Dent-Crolles.lox
   
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/Dent-Crolles -layout my_layout
+export model -fmt esri -o Outputs/Dent-Crolles -layout my_layout
+
   
 # Export des fichiers kml
 export model -fmt kml -o Outputs/Dent-Crolles.kml

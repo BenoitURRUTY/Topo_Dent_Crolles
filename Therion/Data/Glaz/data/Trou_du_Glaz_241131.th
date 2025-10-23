@@ -35178,7 +35178,7 @@ date 2021.08.01
     Me32.77 . 0.15 180.7 -84.4
 
   endcenterline
-  centerline
+centerline
     date 2024.04.20
     # team Thib Loïc Barnab 
     # declination 2.1800 degrees
@@ -45756,16 +45756,5 @@ date 2021.08.01
     G70.33.71 G70.33.72 2.78 95.2 1.0
   endcenterline
 
-  # input "Trou_du_Glaz_241131-2p.th2"
-  # input "Trou_du_Glaz_241131-2s.th2"
-  # input "Trou_du_Glaz_241131-xh-G34.152.th2"
-
-  # map m2p -projection plan
-  #   Trou_du_Glaz_241131-2p
-  #   Trou_du_Glaz_241131-2p1
-  # endmap
-  # map m2s -projection extended
-  #   Trou_du_Glaz_241131-2s
-  # endmap
-
+  
 endsurvey
