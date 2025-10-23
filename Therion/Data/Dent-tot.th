@@ -10,7 +10,7 @@ input P40/P40-tot.th
 input Guiers_Mort/Guiers-tot.th
 
 equate A104@Chevalier_240608.Chevalier G185@Trou_du_Glaz_241131.Glaz
-#equate 
+equate Eb120@Trou_du_Glaz_241131.Glaz Gma172@Guiers_Mort_240505.Guiers-Mort
 
 #Autres cavités
 

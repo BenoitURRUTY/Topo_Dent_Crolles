@@ -9,6 +9,8 @@ source Dent-tot.th
 
 # Add config file
 input ../config.thc 
+
+source ../GIS/MNT_Dent_Crolles_2m.th
   
 # 2-LAYOUT   
 
@@ -309,7 +311,7 @@ export model -o Outputs/Dent-Crolles.lox
   
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/Dent-Crolles -layout my_layout
-export model -fmt esri -o Outputs/Dent-Crolles -layout my_layout
+export model -fmt esri -o Outputs/Dent-Crolles 
 
   
 # Export des fichiers kml
