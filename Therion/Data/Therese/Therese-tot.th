@@ -1,0 +1,18 @@
+encoding  utf-8
+
+survey Therese -title "Therese"
+
+input data/Therese_240826_N.th
+input data/Thérèse_240909.th
+
+equate T106@Therese_240909 T106@Therese_240826_N
+equate T210@Therese_240909 T210@Therese_240826_N
+equate T57@Therese_240909 T57@Therese_240826_N
+equate  T7-4-18@Therese_240909  T7-4-18@Therese_240826_N
+equate T165@Therese_240909 T165@Therese_240826_N
+equate T7-14-4@Therese_240826_N T9@Therese_240826_N
+equate T35@Therese_240826_N T7-4-20@Therese_240826_N
+equate T52-1-2@Therese_240826_N T36-7@Therese_240826_N
+equate T57-10@Therese_240909 T52-14@Therese_240826_N
+
+endsurvey

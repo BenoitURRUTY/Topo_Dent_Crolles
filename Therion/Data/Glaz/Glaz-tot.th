@@ -67,6 +67,48 @@ survey Glaz -title "Trou du Glaz"
     equate G87.36.10@Trou_du_Glaz_241131 G87.31@Trou_du_Glaz_241131
     equate G87.18.5@Trou_du_Glaz_241131 G87.7@Trou_du_Glaz_241131
     equate G84.34@Trou_du_Glaz_241131 G84.34.8@Trou_du_Glaz_241131
+    equate Eb77a@Trou_du_Glaz_250322 Eb70-8a@Trou_du_Glaz_250322
+    equate Eb77-3-1a@Trou_du_Glaz_250322 Eb77-5@Trou_du_Glaz_250322
+    equate Me32.80@Trou_du_Glaz_241131 Eb80-1@Trou_du_Glaz_241131
+    equate Eb77-3-5@Trou_du_Glaz_250322 Eb81@Trou_du_Glaz_241131
+    equate Ba42-50@Trou_du_Glaz_241131 Eb82@Trou_du_Glaz_241131
+    equate Eb70-18@Trou_du_Glaz_250322 Ba42-47-a9@Trou_du_Glaz_250815
+    equate Eb70-18@Trou_du_Glaz_250322 Ba42-47-9@Trou_du_Glaz_250815
+    equate Eb87@Trou_du_Glaz_241131 Me32.77-6@Trou_du_Glaz_241131
+    equate Eb98a@Trou_du_Glaz_241131 Eb95@Trou_du_Glaz_241131
+    equate R2-12-9@Trou_du_Glaz_241131 Me32.55@Trou_du_Glaz_241131
+    equate R2-12-4a@Trou_du_Glaz_241131 R2-19@Trou_du_Glaz_241131
+    equate Me58@Trou_du_Glaz_241131 Me56-3-3@Trou_du_Glaz_250126
+    equate Me48@Trou_du_Glaz_241131 Me48-2-8@Trou_du_Glaz_241131
+    equate Me44@Trou_du_Glaz_241131 Me44-6-1b@Trou_du_Glaz_241131
+    equate Me38-a1@Trou_du_Glaz_241131 Me38-a33@Trou_du_Glaz_241131
+    equate Me32.13-2@Trou_du_Glaz_241131 Me38-5@Trou_du_Glaz_241131
+    equate Me32.15@Trou_du_Glaz_241131 Me38-a5@Trou_du_Glaz_241131
+    equate Me32.23c@Trou_du_Glaz_241131 Me32.20@Trou_du_Glaz_241131
+    equate Ba42-18-6@Trou_du_Glaz_250815 Ba42-21@Trou_du_Glaz_241131
+    equate Me32.5@Trou_du_Glaz_241131 Me32.2.4@Trou_du_Glaz_241131
+    equate Me33@Trou_du_Glaz_241131 Me36.4@Trou_du_Glaz_241131
+    equate Me48-a13a@Trou_du_Glaz_241131 Me48-a16@Trou_du_Glaz_241131
+    equate Me48-a15-3@Trou_du_Glaz_241131 Me48-a15-24-18@Trou_du_Glaz_241131
+    equate G96.38@Trou_du_Glaz_241131 G96.13@Trou_du_Glaz_241131
+    equate G160-21@Trou_du_Glaz_241131 G160-17-2e@Trou_du_Glaz_241131
+    equate G96.22@Trou_du_Glaz_241131 G96.24-10@Trou_du_Glaz_241131
+    equate G160-15@Trou_du_Glaz_241131 G160-17-3@Trou_du_Glaz_241131
+    equate G160-8@Trou_du_Glaz_241131 G160-3-4@Trou_du_Glaz_241131
+    equate G162@Trou_du_Glaz_241131 G160-3-1-8@Trou_du_Glaz_241131
+    equate G149.53@Trou_du_Glaz_241131 G149.52.9@Trou_du_Glaz_241131
+    equate G149.52.16@Trou_du_Glaz_241131 G149.43.2@Trou_du_Glaz_241131
+    equate G149.94.7-5@Trou_du_Glaz_241131 G149.94.7-11-8@Trou_du_Glaz_250405
+    equate G149.103@Trou_du_Glaz_241131 G149.94.17@Trou_du_Glaz_241131
+    equate G155@Trou_du_Glaz_241131 G157.2@Trou_du_Glaz_241131
+    equate G162@Trou_du_Glaz_241131 G160-3-1-8@Trou_du_Glaz_241131
+    equate G171@Trou_du_Glaz_241131 G170.8@Trou_du_Glaz_241131
+    equate G166@Trou_du_Glaz_241131 G170.5@Trou_du_Glaz_241131
+    equate G180@Trou_du_Glaz_241131 G192@Trou_du_Glaz_241131
+    
+
+    
+ 
 
     equate Eb70@Trou_du_Glaz_241131 Eb70@Trou_du_Glaz_250322
     equate Eb77@Trou_du_Glaz_241131 Eb77@Trou_du_Glaz_250322

@@ -14,7 +14,24 @@ equate M39-45@Chevalier_240608 M39-45@Chevalier_250517
 equate E37-15@Chevalier_240608 E37-15@Reseau_Des_Excites_220731bis
 equate M13-10-25@Chevalier_240608		ext_e-p11@ext_Excites_Petzl_220812
 equate E7-20@Reseau_Des_Excites_220731bis	 ext_e-p0@ext_Excites_Petzl_220812
-
+equate A103@Chevalier_240608 A99-4@Chevalier_240608
+equate A87@Chevalier_240608 A96-7@Chevalier_240608
+equate A85@Chevalier_240608 A78-13@Chevalier_240608
+equate Ed2-14@Chevalier_240608 C38-15-3-3@Chevalier_240608
+equate C23-10-25@Chevalier_240608 GPS6MMM@Chevalier_240608
+equate C8@Chevalier_240608 C23-15@Chevalier_240608
+equate C12@Chevalier_240608 C15-a10@Chevalier_240608
+equate A16@Chevalier_240608 A13-3@Chevalier_240608
+equate A28-7-10@Chevalier_240608 A28-1@Chevalier_240608
+equate A28@Chevalier_240608 A32-6@Chevalier_240608
+equate A30@Chevalier_240608 A35-5@Chevalier_240608
+equate A34@Chevalier_240608 A28-11@Chevalier_240608
+equate A37@Chevalier_240608 equate A28-8-4-4@Chevalier_240608
+equate C15-4@Chevalier_240608 C16-6@Chevalier_240608
+equate A59-20@Chevalier_240608 A59-12@Chevalier_240608
+equate A45-4@Chevalier_240608 A45-1-6@Chevalier_240608
+equate A55@Chevalier_240608 A59-4-16@Chevalier_240608
+equate A59-4-5@Chevalier_240608 A67-10@Chevalier_240608
  
 ##########################################################################################
 ## Pour importer les différents fichiers de dessins en plan

@@ -4,8 +4,8 @@ encoding utf-8
 survey Pulpite_240920 -title "Pulpite 240920"
 
   centerline
-    cs long-lat
-    fix P0 5.855845 45.314052 1900
+    cs UTM31
+    fix P0 723850.38	5021806.62	1899.85
     date 2024.08.29 
     # team Nico Loïc Prune Barnabé 
     # declination 2.7000 degrees
@@ -2021,11 +2021,11 @@ survey Pulpite_240920 -title "Pulpite 240920"
   # AF de MC vers le P. erreur 255
     P62-13 P62-13-1 0.84 335.0 -42.3
     # extend auto
-    P51-4-18 . 0.84 187.8 0.9
-    P51-4-18 . 1.33 297.4 80.7
-    P51-4-18 . 2.32 65.7 -88.9
-    P51-4-18 . 0.80 291.5 -41.0
-    P51-4-18 . 0.94 275.4 -45.5
+   P62-13-1 . 0.84 187.8 0.9
+   P62-13-1 . 1.33 297.4 80.7
+   P62-13-1 . 2.32 65.7 -88.9
+   P62-13-1 . 0.80 291.5 -41.0
+   P62-13-1 . 0.94 275.4 -45.5
     extend right
   # noeud Y tdp
     P62-13-1 P62-13-2 2.12 281.6 -38.4

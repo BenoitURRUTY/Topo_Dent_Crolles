@@ -1,11 +1,11 @@
 encoding utf-8
 # 2025.10.21 created by TopoDroid v 6.3.20
 
-survey Thérèse_240826_N -title "Thérèse 240826 N"
+survey Therese_240826_N -title "Thérèse 240826 N"
 
   centerline
-    cs long-lat
-    fix T0 5.864574 45.318149 1933
+    cs UTM31
+    fix T0 724518.38	5022286.08	1933.10
     date 2024.08.26 
     # team Zezeil Olivier Nico 
     # declination 2.7000 degrees

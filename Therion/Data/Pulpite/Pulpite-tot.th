@@ -1,0 +1,13 @@
+encoding  utf-8
+
+survey Pulpite -title "Pulpite"
+
+input data/Pulpite_240920.th
+
+equate P30@Pulpite_240920 P24-4@Pulpite_240920
+equate P62-9-2@Pulpite_240920 Pu9-4-7@Pulpite_240920
+equate P69@Pulpite_240920 Pu9-14@Pulpite_240920
+equate P48-a15@Pulpite_240920 P51-7-9-1@Pulpite_240920
+
+
+endsurvey
