@@ -1,0 +1,11 @@
+encoding  utf-8
+
+survey A4 -title "A4"
+
+input data/A4_250827.th
+input data/A4_250910.th
+
+equate equate Aq3-3@A4_250910 Aq3-3@A4_250827
+equate equate Aq18@A4_250910 Aq18@A4_250827
+equate equate Aq21@A4_250910 Aq21@A4_250827
+endsurvey

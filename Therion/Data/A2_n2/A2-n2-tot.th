@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey A2-n2 -title "A2 n2"
+
+input data/A2_n2_250910.th
+endsurvey

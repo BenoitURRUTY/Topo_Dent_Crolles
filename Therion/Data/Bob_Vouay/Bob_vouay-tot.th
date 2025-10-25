@@ -1,0 +1,7 @@
+encoding  utf-8
+
+survey Bob_Bouay -title "Bob Bouay"
+
+input data/Bob_Vouay_240926.th
+
+endsurvey

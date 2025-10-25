@@ -1,0 +1,17 @@
+encoding utf-8
+# 2025.10.16 created by TopoDroid v 6.3.20
+
+survey Chien_fidèle -title "Chien fidèle"
+    # Point gps voir photo 
+
+  centerline
+    cs long-lat
+    fix Cf0 5.860874 45.320450 1779
+    date 2023.08.16 
+    team "Alain Maurice"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+  endcenterline
+
+endsurvey

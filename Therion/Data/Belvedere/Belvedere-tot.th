@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey Belvedere -title "Belvedere"
+
+input data/Belvedere_230827.th
+endsurvey

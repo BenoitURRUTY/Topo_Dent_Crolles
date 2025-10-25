@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey Av-Seyssins -title "Av-Seyssins"
+
+input data/Avenue_de_Seyssins_250420.th
+endsurvey
