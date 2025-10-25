@@ -1,0 +1,56 @@
+﻿
+survey Elle_mattendait
+
+    centerline
+        cs UTM31
+        fix Ema38 723797.7 5022105.3 1462.8  
+        date 1998.11.05
+        units length meters
+        units compass clino degrees
+        data normal from to length compass clino 
+        Entree_1   Ema1             2.16  275.00   11.00  #d�but topo Eric LJ, depuis la galerie des Fran�ois
+        Ema1       Ema2             2.21  237.00    5.00   #
+        Ema2       Ema3             5.44  319.00   -6.00   #
+        Ema3       Ema4             0.98  268.00  -60.00   #
+        Ema4       Ema5             5.54  269.00   -3.00   #
+        Ema5       Ema6             2.05  338.00  -29.00   #
+        Ema6       Ema7             2.01  308.00   -5.00   #
+        Ema7       Ema8             7.78  272.00   -3.00   #
+        Ema8       Ema9             5.30  258.00   -3.00   #
+        Ema9       Ema10            2.09  289.00  -10.00   #
+        Ema10      Ema11            4.48  231.00    2.00   #
+        Ema11      Ema12            3.78  324.00  -16.00   #
+        Ema12      Ema13            2.88  290.00   -9.00   #
+        Ema13      Ema14            3.79  269.00   -6.00   #
+        Ema14      Ema15            3.63  279.00  -10.00   #
+        Ema15      Ema16            2.02  335.00    5.00   #
+        Ema16      Ema17            1.26   10.00   69.00   #
+        Ema17      Ema18            7.95  279.00    4.00   #
+        Ema18      Ema19            6.68  282.00   34.00  #largeur 0.5
+        Ema19      Ema20            6.76  272.00  -18.00   #
+        Ema20      Ema21            7.24  262.00  -22.00  #largeur 0.5
+        Ema21      Ema22            5.80  268.00    2.00   #
+        Ema22      Ema23            0.93  180.00   90.00   #
+        Ema23      Ema24            6.13  264.00    0.00   #
+        Ema24      Ema25            0.27  180.00  -90.00  #largeur 0.3
+        Ema25      Ema26            5.65  264.00   -8.00   #
+        Ema26      Ema27            2.27  302.00  -32.00   #
+        Ema27      Ema28            3.17  264.00   16.00   #
+        Ema28      Ema29            4.43  259.00   -9.00   #
+        Ema29      Ema30            2.77  265.00   14.00   #
+    endcenterline
+    centerline
+        date 1998.12.13
+        units length meters
+        units compass clino degrees
+        data normal from to length compass clino 
+        Ema30      Ema31            2.73  224.00  -63.00  #suite topo Eric du 13/12/1998
+        Ema31      Ema32            3.28  265.00   -2.00   #
+        Ema32      Ema33            4.56  276.00   -4.00   #
+        Ema33      Ema34            3.30  270.00   -4.00   #
+        Ema34      Ema35            3.58  256.00  -15.00   #
+        Ema35      Ema36            2.52  278.00    4.00   #
+        Ema36      Ema37            4.81  270.00    0.00   #
+        Ema37      Ema38            2.23  290.00   18.00  #arriv�e au puits Chevalier
+    endcenterline
+endsurvey
