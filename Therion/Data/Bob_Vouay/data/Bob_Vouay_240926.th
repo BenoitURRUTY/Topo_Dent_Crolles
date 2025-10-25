@@ -6,6 +6,7 @@ survey Bob_Vouay_240926 -title "Bob Vouay 240926"
   centerline
     cs UTM31
     fix V0 723760.00	5021308.00	2014.00
+    station V1 "Bob Vouay" entrance
     date 2024.08.31 
     team "Nico"
     team "Solveig"

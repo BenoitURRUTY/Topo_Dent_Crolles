@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey Frigo -title "Frigo"
+
+input data/Frigo_230831.th
+endsurvey

@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey P2M -title "P2M"
+
+input data/Puits_des_2_Mathildes_231008.th
+endsurvey

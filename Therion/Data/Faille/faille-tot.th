@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey faille -title "faille"
+
+input data/faille_GPS.th
+endsurvey

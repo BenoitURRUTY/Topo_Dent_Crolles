@@ -6,6 +6,7 @@ survey A2_250910 -title "A2 250910"
   centerline
     cs long-lat
     fix Ad1-15 5.862881 45.320236 1818
+    station Ad1-15 "A2" entrance
     date 2025.08.22 
     team "Alain Maurice"
     # declination 2.6000 degrees

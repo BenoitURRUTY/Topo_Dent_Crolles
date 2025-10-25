@@ -8,14 +8,13 @@ survey Chevalier_240608 -title "Chevalier 240608"
 
      cs UTM31
     fix A0 723714.60	5020904.40	1718.30 # Annette
-    fix ext0 723784.90	5020987.60	1699.70 # Chevalier
     fix GPS6MMM 723836.7   5021023.5  1679.3  # MMM
-    fix M13-10-25 724051.40	5021296.00	1688.30 # Petzl
-    fix M13-10-19 724049.90	5021307.10	1748.60 # Montagnards
-    fix M39-45 723961.80	5021247.70	1890.50 #Nid de choucas
-
-
-
+    station A0 "Grotte Annette" entrance
+    station GPS6MMM "Mega Maxi Marmotte" entrance
+    station M13-10-19 "Grotte des Montagnards" entrance
+    station M13-10-25 "Grotte Petzl" entrance
+    station C0 "Grotte Chevalier" entrance
+    
     date 2020.06.10 
     units length meters
     units compass clino degrees

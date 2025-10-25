@@ -7,6 +7,8 @@ survey A4_250827 -title "A4 250827"
   centerline
     cs UTM31
     fix Aq0 5.864512 45.319833 1863
+    station Aq0 "A4" entrance
+    
     date 2023.08.16 
     # team Alain 
     # declination 2.7000 degrees

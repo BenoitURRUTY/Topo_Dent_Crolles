@@ -7,6 +7,7 @@ survey Trou_du_Glaz_241131 -title "Trou du Glaz 241131"
   centerline
     cs UTM31
     fix G0 723498.60 5022147.20	1692.3
+    station G0 "Trou du Glaz" entrance
     date 2020.05.17
     # team Thib Loïc Barnab 
     # declination 2.1800 degrees

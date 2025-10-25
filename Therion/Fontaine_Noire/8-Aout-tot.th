@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey 8_aout -title "8_aout"
+
+input data/8_aout_fond_240831.th
+endsurvey

@@ -6,6 +6,7 @@ survey 8_aout_fond_240831 -title "8 août fond"
   centerline
     cs UTM31
     fix 8a144 724130.54	5021903.90	1911.98
+    station 8a144 "Puits du 8 Août" entrance
     date 2024.04.23 
     team "Alain Maurice"
     # declination 2.8000 degrees

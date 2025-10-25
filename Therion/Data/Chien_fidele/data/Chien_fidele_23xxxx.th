@@ -1,0 +1,19 @@
+encoding utf-8
+# 2025.10.16 created by TopoDroid v 6.3.20
+
+survey Chien_fidele -title "Chien fidèle"
+    # Point gps voir photo 
+
+  centerline
+    cs UTM31
+    fix Cf0 724219.27	5022531.28	1779.31
+    station Cf0 "Chien fidèle" entrance
+    date 2023.08.16 
+    team "Alain Maurice"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    Cf0 .  0 0 0
+  endcenterline
+
+endsurvey

@@ -5,8 +5,9 @@ survey Reseau_Des_Excites_220731bis -title "Réseau Des Excités 220731bis"
     # DENT CROLLES 
 
   centerline
-    cs long-lat
-    # fix E_7_20 5.857839 45.309017 1749
+    # cs long-lat
+    station E0 "Grotte des excités" entrance
+
     date 2022.07.31 
     # team Gervais Thibaud 
     # declination 2.2000 degrees

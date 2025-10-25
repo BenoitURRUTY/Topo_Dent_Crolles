@@ -7,6 +7,7 @@ survey P40_230823 -title "P40 230823"
   centerline
     cs UTM31
     fix Pq0 723673.73	5021626.32	1939.43
+    station Pq0 "Gouffre P40" entrance
     date 2025.08.23 
     # team Alain 
     # declination 2.7000 degrees

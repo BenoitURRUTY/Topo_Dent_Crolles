@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey Nini -title "Nini"
+
+input data/grotte_à_Nini.th
+endsurvey

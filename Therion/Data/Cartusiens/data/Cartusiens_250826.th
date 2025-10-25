@@ -6,6 +6,7 @@ survey Cartusiens_250826 -title "Cartusiens 250826"
   centerline
     cs long-lat
     fix Ca0 5.861758 45.320803 1783
+    station Ca1 "Puits des Cartusien" entrance
     date 2025.08.26
     team "Alain Maurice" 
     units length meters

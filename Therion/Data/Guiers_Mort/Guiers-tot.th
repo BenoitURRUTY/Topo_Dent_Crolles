@@ -3,7 +3,7 @@ encoding  utf-8
 survey Guiers-Mort -title "Guiers Mort"
 
 
-input data/Guiers_Mort_240505.th
+input data/Guiers_Mort.th
 
 equate Gma176@Guiers_Mort_240505 Gma169@Guiers_Mort_240505
 equate Gma171-2@Guiers_Mort_240505 Gm165-5
@@ -44,35 +44,37 @@ equate S111@Guiers_Mort_240505 S94-23@Guiers_Mort_240505
 equate S110@Guiers_Mort_240505 S94-21a@Guiers_Mort_240505
 equate S121@Guiers_Mort_240505 S119-2-3@Guiers_Mort_240505
 
-input data/Guiers_Mort_250330.th
-equate  S76-4@Guiers_Mort_250330  S76-4@Guiers_Mort_240505
-
-input data/Guiers_Mort_250413.th
-equate S76-64@Guiers_Mort_250413 S76-64@Guiers_Mort_240505
-equate Gm0@Guiers_Mort_250413 Gm0@Guiers_Mort_240505
-equate S76-63@Guiers_Mort_240505 S76-63@Guiers_Mort_250413
-equate S76-60@Guiers_Mort_240505 S76-60@Guiers_Mort_250413
-equate S76-51@Guiers_Mort_240505 S76-51@Guiers_Mort_250413
 
 
-input data/Guiers_Mort_250503.th
-equate Gm9@Guiers_Mort_250503 Gm9@Guiers_Mort_240505
-equate  Gm18-6@Guiers_Mort_250503 Gm18-6@Guiers_Mort_240505
-equate Gm21@Guiers_Mort_250503 Gm21@Guiers_Mort_240505
-equate  Gm29-4@Guiers_Mort_250503  Gm29-4@Guiers_Mort_240505
-equate Gm29-2@Guiers_Mort_250503 Gm29-2@Guiers_Mort_240505
-equate  Gm32@Guiers_Mort_250503  Gm32@Guiers_Mort_240505
-equate Gm38-3@Guiers_Mort_250503 Gm38-3@Guiers_Mort_240505
+# input data/Guiers_Mort_250330.th
+# equate  S76-4@Guiers_Mort_250330  S76-4@Guiers_Mort_240505
 
-input data/Guiers_Mort_250629.th
-equate Gm0@Guiers_Mort_250629 Gm0@Guiers_Mort_240505
+# input data/Guiers_Mort_250413.th
+# equate S76-64@Guiers_Mort_250413 S76-64@Guiers_Mort_240505
+# equate Gm0@Guiers_Mort_250413 Gm0@Guiers_Mort_240505
+# equate S76-63@Guiers_Mort_240505 S76-63@Guiers_Mort_250413
+# equate S76-60@Guiers_Mort_240505 S76-60@Guiers_Mort_250413
+# equate S76-51@Guiers_Mort_240505 S76-51@Guiers_Mort_250413
 
-input data/Guiers_Mort_250711.th
-equate  Gm1@Guiers_Mort_250711  Gm1@Guiers_Mort_240505
 
-input data/Guiers_Mort_250815
-equate  Gm49@Guiers_Mort_250815  Gm49@Guiers_Mort_240505
-equate Gm153@Guiers_Mort_250815 Gm153@Guiers_Mort_240505
+# input data/Guiers_Mort_250503.th
+# equate Gm9@Guiers_Mort_250503 Gm9@Guiers_Mort_240505
+# equate  Gm18-6@Guiers_Mort_250503 Gm18-6@Guiers_Mort_240505
+# equate Gm21@Guiers_Mort_250503 Gm21@Guiers_Mort_240505
+# equate  Gm29-4@Guiers_Mort_250503  Gm29-4@Guiers_Mort_240505
+# equate Gm29-2@Guiers_Mort_250503 Gm29-2@Guiers_Mort_240505
+# equate  Gm32@Guiers_Mort_250503  Gm32@Guiers_Mort_240505
+# equate Gm38-3@Guiers_Mort_250503 Gm38-3@Guiers_Mort_240505
+
+# input data/Guiers_Mort_250629.th
+# equate Gm0@Guiers_Mort_250629 Gm0@Guiers_Mort_240505
+
+# input data/Guiers_Mort_250711.th
+# equate  Gm1@Guiers_Mort_250711  Gm1@Guiers_Mort_240505
+
+# input data/Guiers_Mort_250815
+# equate  Gm49@Guiers_Mort_250815  Gm49@Guiers_Mort_240505
+# equate Gm153@Guiers_Mort_250815 Gm153@Guiers_Mort_240505
 
 
 endsurvey

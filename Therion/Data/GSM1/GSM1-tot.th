@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey GSM1 -title "GSM1"
+
+input data/grosse_super_marmotte_1.th
+endsurvey

@@ -7,6 +7,7 @@ survey A2_n2_250910 -title "A2 n2 250910"
   centerline
     cs long-lat
     fix 0 5.862833 45.320283 1815
+    station 0 "A2 n°2" entrance
     date 2025.08.30 
     # team pam 
     units length meters

@@ -7,6 +7,7 @@ survey Pulpite_240920 -title "Pulpite 240920"
     cs UTM31
     fix P0 723850.38	5021806.62	1899.85
     date 2024.08.29 
+    station P0 "Gouffre de la Pulpite Irréversible" entrance
     # team Nico Loïc Prune Barnabé 
     # declination 2.7000 degrees
     units length meters

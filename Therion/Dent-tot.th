@@ -11,6 +11,7 @@ input Data/Guiers_Mort/Guiers-tot.th
 input Data/Therese/Therese-tot.th
 input Data/Pulpite/Pulpite-tot.th
 input Data/Bob_Vouay/Bob_vouay-tot.th
+input Data/Sureau/Sureau-tot.th
 
 equate A104@Chevalier_240608.Chevalier G185@Trou_du_Glaz_241131.Glaz
 equate Eb120@Trou_du_Glaz_241131.Glaz Gma172@Guiers_Mort_240505.Guiers-Mort
@@ -32,5 +33,16 @@ input Data/A2_n2/A2-n2-tot.th
 input Data/A4/A4-tot.th
 input Data/Avenue_de_Seyssins/Av-Seyssins-tot.th
 input Data/Belvedere/Belvedere-tot.th
+input Data/Chien_fidele/Chien_fidele-tot.th
+input Data/Commeres/Commeres-tot.th
+input Data/V4_Piton/V4-tot.th
+input Data/Puits_des_2_Mathildes/P2M-tot.th
+input Data/Faille/faille-tot.th
+input Data/Frigo/Frigo-tot.th
+input Data/Galois/Galois-tot.th
+input Data/Horvath/Horvath-tot.th
+# input Data/Trou_Pas_de_Rocheplane/Trou_Pas_de_Rocheplane.th
+input Data/GSM1/GSM1-tot.th
+# input Data/Nini/Nini-tot.th
 
 endsurvey

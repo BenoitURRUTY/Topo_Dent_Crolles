@@ -6,6 +6,7 @@ survey Therese_240826_N -title "Thérèse 240826 N"
   centerline
     cs UTM31
     fix T0 724518.38	5022286.08	1933.10
+    station T0 "Gouffre Thérèse" entrance
     date 2024.08.26 
     # team Zezeil Olivier Nico 
     # declination 2.7000 degrees

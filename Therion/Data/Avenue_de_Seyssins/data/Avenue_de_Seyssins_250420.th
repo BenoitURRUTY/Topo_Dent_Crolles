@@ -6,12 +6,13 @@ survey Avenue_de_Seyssins_250420 -title "Avenue de Seyssins 250420"
   centerline
     cs UTM31
     fix Se0 724220.00	5023160.00	1495.70
-
+    station Se2 "Avenue de Seyssins" entrance
     date 2025.04.20 
     # team Alain 
     units length meters
     units compass clino degrees
     data normal from to length compass clino
+    flags surface
   # bloc 
     # extend auto
     Se0 . 1.59 310.9 -28.0
