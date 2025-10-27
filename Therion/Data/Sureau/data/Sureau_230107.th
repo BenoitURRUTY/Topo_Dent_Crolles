@@ -5,7 +5,7 @@ survey Sureau_230107 -title "Sureau 230107"
 
   centerline
     cs UTM31
-    fix tp0-15 723836.67	5021023.51	1679.29
+    # fix tp0-15 723836.67	5021023.51	1679.29
     station tp0 "Grotte du Sureau" entrance
     date 2023.01.07 
     # team Barnabé Tom Pierre 

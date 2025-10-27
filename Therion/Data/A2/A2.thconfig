@@ -303,3 +303,4 @@ export map -proj plan -fmt esri -o Outputs/A2 -layout my_layout
   
 # Export des fichiers kml
 export model -fmt kml -o Outputs/A2.kml
+export model -fmt esri -o Outputs/A2

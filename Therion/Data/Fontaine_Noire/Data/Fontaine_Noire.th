@@ -1,0 +1,24 @@
+encoding utf-8
+# 2025.10.27 created by TopoDroid v 6.3.20
+
+survey Fontaine_Noire -title "Fontaine Noire"
+
+  centerline
+    cs UTM31
+    fix a 723861.30	5023563.90	1173.5
+    date 2024.04.14 
+    station 1 "Fontaine noire" entrance
+    # team Benoît 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend ignore
+    flags surface
+  # départ à 1m au dessus du point GPS, arrivée au milieu de la grille 
+    0 1 5.51 138.5 -10.5
+    extend right
+  # en regardant vers le bas, poteau en bas à droite, goujon en haut à droite 
+    a 0 1.00 180.0 90.0
+  endcenterline
+
+endsurvey

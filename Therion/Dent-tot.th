@@ -23,6 +23,7 @@ equate C50-a10@Chevalier_240608.Chevalier G149.106@Trou_du_Glaz_241131.Glaz
 equate C48@Chevalier_240608.Chevalier G149.109@Trou_du_Glaz_241131.Glaz
 equate Me48-a15-49@Trou_du_Glaz_241131.Glaz T224@Therese_240826_N.Therese
 equate G89-196@Trou_du_Glaz_241131.Glaz P62-13-12@Pulpite_240920.Pulpite
+equate tp0-15@Sureau_230107.Sureau trav13@Chevalier_240608.Chevalier
 
 #Autres cavités
 
@@ -41,6 +42,7 @@ input Data/Faille/faille-tot.th
 input Data/Frigo/Frigo-tot.th
 input Data/Galois/Galois-tot.th
 input Data/Horvath/Horvath-tot.th
+input Data/Fontaine_Noire/FN-tot.th
 # input Data/Trou_Pas_de_Rocheplane/Trou_Pas_de_Rocheplane.th
 input Data/GSM1/GSM1-tot.th
 # input Data/Nini/Nini-tot.th
