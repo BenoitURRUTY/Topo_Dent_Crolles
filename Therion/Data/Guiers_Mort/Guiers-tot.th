@@ -4,45 +4,15 @@ survey Guiers-Mort -title "Guiers Mort"
 
 
 input data/Guiers_Mort.th
+input Data/Guiers_Mort_251025.th
 
-equate Gma176@Guiers_Mort_240505 Gma169@Guiers_Mort_240505
-equate Gma171-2@Guiers_Mort_240505 Gm165-5
-equate Gm165-22@Guiers_Mort_240505 Gm157@Guiers_Mort_240505
-equate Gm147@Guiers_Mort_240505 Gm142-11@Guiers_Mort_240505
-equate Gm143@Guiers_Mort_240505 Gm142-15@Guiers_Mort_240505
-equate Gm115-5-4@Guiers_Mort_240505 Gm115-3@Guiers_Mort_240505
-equate Gm116@Guiers_Mort_240505 Gm115-5-2-3@Guiers_Mort_240505
-equate Gm116@Guiers_Mort_240505 Gm108-3-8@Guiers_Mort_240505
-equate Gm110@Guiers_Mort_240505 Gm108-3-6-3@Guiers_Mort_240505
-equate Gm82-6@Guiers_Mort_240505 Gm17-10-30@Guiers_Mort_240505
-equate Gm67@Guiers_Mort_240505 Gm91-18@Guiers_Mort_240505
-equate Gm17-12-9@Guiers_Mort_240505 Gm45@Guiers_Mort_240505
-equate Gm17-12@Guiers_Mort_240505 Gm47-7@Guiers_Mort_240505
-equate Gm29-17@Guiers_Mort_240505 Gm17-2@Guiers_Mort_240505
-equate Gm37-3@Guiers_Mort_240505 Gm34@Guiers_Mort_240505
-equate Gm37@Guiers_Mort_240505 Gm38-4@Guiers_Mort_240505
-equate Gm38-9-14-6-a3@Guiers_Mort_240505 Gm38-9-14-2@Guiers_Mort_240505
-equate Gm38-9-14-2@Guiers_Mort_240505 Gm38-9-8-7@Guiers_Mort_240505
-equate Gm12@Guiers_Mort_240505 Gm18-7@Guiers_Mort_240505
-equate S44-3@Guiers_Mort_240505 S44-a4@Guiers_Mort_240505
-equate S49-4@Guiers_Mort_240505 S47@Guiers_Mort_240505
-equate S76-64-3@Guiers_Mort_240505 S76-63-6@Guiers_Mort_240505
-equate S76-35-1@Guiers_Mort_240505 S76-37-3@Guiers_Mort_240505
-equate S84-5-2@Guiers_Mort_240505 S84-3@Guiers_Mort_240505
-equate S84-4-38-18@Guiers_Mort_240505 S93@Guiers_Mort_240505
-equate S94-10-6@Guiers_Mort_240505 S94-7@Guiers_Mort_240505
-equate S101@Guiers_Mort_240505 S99-1a@Guiers_Mort_240505
-equate S102@Guiers_Mort_240505 S99-3b@Guiers_Mort_240505
-equate S99-8-4@Guiers_Mort_240505 S103@Guiers_Mort_240505
-equate S104@Guiers_Mort_240505 S99-8-2a@Guiers_Mort_240505
-equate S99-8-3@Guiers_Mort_240505 S99-6a@Guiers_Mort_240505
-equate S105@Guiers_Mort_240505 S94-16a@Guiers_Mort_240505
-equate S107@Guiers_Mort_240505 S94-20a@Guiers_Mort_240505
-equate S108@Guiers_Mort_240505 S99-10@Guiers_Mort_240505
-equate S108@Guiers_Mort_240505 S94-17a@Guiers_Mort_240505
-equate S111@Guiers_Mort_240505 S94-23@Guiers_Mort_240505
-equate S110@Guiers_Mort_240505 S94-21a@Guiers_Mort_240505
-equate S121@Guiers_Mort_240505 S119-2-3@Guiers_Mort_240505
+equate S127@Guiers_Mort_240505 S127@Guiers_Mort_251025
+equate S128@Guiers_Mort_240505 S128@Guiers_Mort_251025
+equate S130@Guiers_Mort_240505 S130@Guiers_Mort_251025
+
+equate S128-a3@Guiers_Mort_251025 S130@Guiers_Mort_240505
+
+# en double
 
 
 

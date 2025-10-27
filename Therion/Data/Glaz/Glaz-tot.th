@@ -15,6 +15,7 @@ survey Glaz -title "Trou du Glaz"
     input Data/Amalgame/Amalgame.th
     input Data/Puits_des_2_Mathildes/P2M-tot.th
     input Data/Elle_mattendait/Elle_mattendait.th
+    input Data/Trou_du_Glaz_251022.th
     
     equate Me55@Trou_du_Glaz_241131 Me55@Trou_du_Glaz_250126
     equate Me56@Trou_du_Glaz_241131 Me56@Trou_du_Glaz_250126
@@ -154,6 +155,8 @@ survey Glaz -title "Trou du Glaz"
     equate G70.2@Trou_du_Glaz_241131 20-80@Amalgame
 
     equate Ma0@Puits_des_2_Mathildes_231008.P2M 23-47@Amalgame
+
+    equate Gi103@Trou_du_Glaz_251022 Gi103@Trou_du_Glaz_251012
 
  
 ##########################################################################################
