@@ -6,6 +6,7 @@ survey Trou_du_Glaz_251022 -title "Trou du Glaz 251022"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
+    date 2025.10.22
 
   # boucle de méandre à droite. Suite Guillemin 
     Gi103 Gi104 3.77 40.9 14.9

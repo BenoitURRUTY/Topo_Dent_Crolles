@@ -27,24 +27,24 @@ equate tp0-15@Sureau_230107.Sureau trav13@Chevalier_240608.Chevalier
 
 #Autres cavités
 
-input Data/Cartusiens/Cartusiens-tot.th
-input Data/8_aout/8-Aout-tot.th
-input Data/A2/A2-tot.th
-input Data/A2_n2/A2-n2-tot.th
-input Data/A4/A4-tot.th
-input Data/Avenue_de_Seyssins/Av-Seyssins-tot.th
-input Data/Belvedere/Belvedere-tot.th
-input Data/Chien_fidele/Chien_fidele-tot.th
-input Data/Commeres/Commeres-tot.th
-input Data/V4_Piton/V4-tot.th
-input Data/Puits_des_2_Mathildes/P2M-tot.th
-input Data/Faille/faille-tot.th
-input Data/Frigo/Frigo-tot.th
-input Data/Galois/Galois-tot.th
-input Data/Horvath/Horvath-tot.th
-input Data/Fontaine_Noire/FN-tot.th
-# input Data/Trou_Pas_de_Rocheplane/Trou_Pas_de_Rocheplane.th
-input Data/GSM1/GSM1-tot.th
-# input Data/Nini/Nini-tot.th
+# input Data/Cartusiens/Cartusiens-tot.th
+# input Data/8_aout/8-Aout-tot.th
+# input Data/A2/A2-tot.th
+# input Data/A2_n2/A2-n2-tot.th
+# input Data/A4/A4-tot.th
+# input Data/Avenue_de_Seyssins/Av-Seyssins-tot.th
+# input Data/Belvedere/Belvedere-tot.th
+# input Data/Chien_fidele/Chien_fidele-tot.th
+# input Data/Commeres/Commeres-tot.th
+# input Data/V4_Piton/V4-tot.th
+# input Data/Puits_des_2_Mathildes/P2M-tot.th
+# input Data/Faille/faille-tot.th
+# input Data/Frigo/Frigo-tot.th
+# input Data/Galois/Galois-tot.th
+# input Data/Horvath/Horvath-tot.th
+# input Data/Fontaine_Noire/FN-tot.th
+# # input Data/Trou_Pas_de_Rocheplane/Trou_Pas_de_Rocheplane.th
+# input Data/GSM1/GSM1-tot.th
+# # input Data/Nini/Nini-tot.th
 
 endsurvey
