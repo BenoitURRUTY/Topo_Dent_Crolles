@@ -1,7 +1,7 @@
 encoding utf-8
 # 2025.10.21 created by TopoDroid v 6.3.20
 
-survey Horvath -title "Horvath"
+survey Horvath_GPS -title "Horvath"
 
   centerline
     cs UTM31

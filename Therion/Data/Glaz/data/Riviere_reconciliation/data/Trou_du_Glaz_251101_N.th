@@ -362,9 +362,7 @@ survey Trou_du_Glaz_251101_N -title "Trou du Glaz 251101 N"
     Re1-10 . 13.52 138.6 -66.8  
   endcenterline
 
-  equate Re1-8-3-1-2 Re1-7
-  equate Re1-8-3-12-2 Re-1
-  equate Re1-8-3-7 Re1-8-3-11-4
+
   # input "Trou_du_Glaz_251101_N-2p.th2"
   # input "Trou_du_Glaz_251101_N-2s.th2"
   # input "Trou_du_Glaz_251101_N-xh-G34.152.th2"

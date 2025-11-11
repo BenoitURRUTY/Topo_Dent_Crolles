@@ -1,0 +1,32 @@
+encoding  utf-8
+
+survey Horvath -title "Résurgence de Fontaine Noire - Grotte Horvath"
+
+input data/Horvath_GPS.th
+input data/Fontaine_Noire_GPS.th
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/Horvath.th
+   # Patit porche à côté de la grotte Horvath
+   input Data/Horvath2.th
+	   equate  Horvath@Horvath  Horvath@Horvath2
+   # Ajout topo S2
+   input Data/Horvath-S2.th
+      equate 4@Horvath 0b@Horvath-S2
+   input Data/Horvathb.th
+      equate 49@Horvath 20@Horvathb
+
+## Pour le plan
+   input Data/Horvath.th2
+   #input Data/Horvath2.th2
+   #join SP-LutS3S4-1 SP-S3-2
+
+## Pour la coupe développée
+   input Data/Horvath-coupe.th2
+   #input Data/Horvath2-coupe.th2
+   #join SC-LutS3S4-1 SC-S3-2
+
+## Appel des maps
+   input Horvath-maps.th
+
+endsurvey

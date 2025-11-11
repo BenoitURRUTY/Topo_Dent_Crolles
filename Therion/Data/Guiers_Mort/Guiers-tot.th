@@ -3,8 +3,9 @@ encoding  utf-8
 survey Guiers-Mort -title "Guiers Mort"
 
 
-input data/Guiers_Mort.th
+input Data/Guiers_Mort.th
 input Data/Guiers_Mort_251025.th
+input Data/Guiers_Mort_251108.th
 
 equate S127@Guiers_Mort_240505 S127@Guiers_Mort_251025
 equate S128@Guiers_Mort_240505 S128@Guiers_Mort_251025
@@ -12,6 +13,15 @@ equate S130@Guiers_Mort_240505 S130@Guiers_Mort_251025
 
 equate S128-a3@Guiers_Mort_251025 S130@Guiers_Mort_240505
 
+equate Gm17-12-6@Guiers_Mort_240505 Gm17-12-6@Guiers_Mort_251108
+equate Gm17-12-4@Guiers_Mort_240505 Gm17-12-4@Guiers_Mort_251108
+equate Gm17-12-3@Guiers_Mort_240505 Gm17-12-3@Guiers_Mort_251108
+equate Gm37@Guiers_Mort_240505 Gm37@Guiers_Mort_251108
+equate Gm38-9@Guiers_Mort_240505 Gm38-9@Guiers_Mort_251108
+equate Gm58-3@Guiers_Mort_240505 Gm58-3@Guiers_Mort_251108
+equate Gm82-6@Guiers_Mort_240505 Gm82-6@Guiers_Mort_251108
+equate Gm54@Guiers_Mort_240505 Gm54@Guiers_Mort_251108
+equate Gm58-8@Guiers_Mort_251108 Gm17-10-23@Guiers_Mort_240505 # a confirmer
 # en double
 
 

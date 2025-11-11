@@ -1,22 +1,23 @@
 encoding  utf-8
 
 survey Glaz -title "Trou du Glaz"
-   input Data/Trou_du_Glaz_241131.th
-   input Data/Trou_du_Glaz_250126.th
-   input Data/Trou_du_Glaz_250322.th
-   input Data/Trou_du_Glaz_250405.th
-   input Data/Trou_du_Glaz_250426_A.th
-    input Data/Trou_du_Glaz_250713.th
-    input Data/Trou_du_Glaz_250726.th
-    input Data/Trou_du_Glaz_250815.th
-    input Data/Trou_du_Glaz_250817.th
-    input Data/Trou_du_Glaz_251004.th
-    input Data/Trou_du_Glaz_251012.th
-    input Data/Trou_du_Glaz_251101_N.th
-    input Data/Amalgame/Amalgame.th
-    input Data/Puits_des_2_Mathildes/P2M-tot.th
-    input Data/Elle_mattendait/Elle_mattendait.th
-    input Data/Trou_du_Glaz_251022.th
+   input data/Trou_du_Glaz_241131.th
+   input data/Trou_du_Glaz_250126.th
+   input data/Trou_du_Glaz_250322.th
+   input data/Trou_du_Glaz_250405.th
+   input data/Trou_du_Glaz_250426_A.th
+    input data/Trou_du_Glaz_250713.th
+    input data/Trou_du_Glaz_250726.th
+    input data/Trou_du_Glaz_250815.th
+    input data/Trou_du_Glaz_250817.th
+    input data/Trou_du_Glaz_251004.th
+    input data/Trou_du_Glaz_251012.th
+    input data/Amalgame/Amalgame.th
+    input data/Puits_des_2_Mathildes/P2M-tot.th
+    input data/Elle_mattendait/Elle_mattendait.th
+    input data/Trou_du_Glaz_251022.th
+
+    input data/Riviere_reconciliation/Reconciliation-tot.th
     
     equate Me55@Trou_du_Glaz_241131 Me55@Trou_du_Glaz_250126
     equate Me56@Trou_du_Glaz_241131 Me56@Trou_du_Glaz_250126
@@ -159,7 +160,7 @@ survey Glaz -title "Trou du Glaz"
 
     equate Gi103@Trou_du_Glaz_251022 Gi103@Trou_du_Glaz_251012
 
-    equate Re1@Trou_du_Glaz_250817 Re1@Trou_du_Glaz_251101_N
+    equate G70.33.53.18@Trou_du_Glaz_241131 Re1@Reconciliation_251103.Reconciliation
 
  
 ##########################################################################################
@@ -167,8 +168,8 @@ survey Glaz -title "Trou du Glaz"
   ## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
   ## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
 
-# input Data/Puits_neige.th2
-# input Data/Puits_neige-coupe-elevation.th2
+# input data/Puits_neige.th2
+# input data/Puits_neige-coupe-elevation.th2
 
 # input Puits_neige-maps.th
 
