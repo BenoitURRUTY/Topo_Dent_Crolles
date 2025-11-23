@@ -307,6 +307,7 @@ export model -o Outputs/Glaz.lox
   
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/Glaz -layout my_layout
+export model -fmt esri -o Outputs/Glaz
   
 # Export des fichiers kml
 export model -fmt kml -o Outputs/Glaz.kml

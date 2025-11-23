@@ -8,9 +8,9 @@ survey Horvath -title "Résurgence de Fontaine Noire - Grotte Horvath"
 
   centerline
 
-    cs long-lat
-    fix Horvath 5.85652  45.32960  1173
-    fix FNoire 5.85676  45.32992  1171
+    cs UTM31
+    fix Horvath 723842.00  5023535.70  1173
+    fix FNoire 723859.55  5023571.92  1171
     
     # station FNoire "Fontaine Noire du Guiers" entrance
     # station Horvath "Grotte Horvath" entrance

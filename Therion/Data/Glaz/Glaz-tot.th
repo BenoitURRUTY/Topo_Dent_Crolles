@@ -16,8 +16,9 @@ survey Glaz -title "Trou du Glaz"
     input data/Puits_des_2_Mathildes/P2M-tot.th
     input data/Elle_mattendait/Elle_mattendait.th
     input data/Trou_du_Glaz_251022.th
-
     input data/Riviere_reconciliation/Reconciliation-tot.th
+    input data/Trou_du_Glaz_251111.th
+    input data/Trou_du_Glaz_251116.th
     
     equate Me55@Trou_du_Glaz_241131 Me55@Trou_du_Glaz_250126
     equate Me56@Trou_du_Glaz_241131 Me56@Trou_du_Glaz_250126
@@ -161,6 +162,13 @@ survey Glaz -title "Trou du Glaz"
     equate Gi103@Trou_du_Glaz_251022 Gi103@Trou_du_Glaz_251012
 
     equate G70.33.53.18@Trou_du_Glaz_241131 Re1@Reconciliation_251103.Reconciliation
+
+    equate Gi127@Trou_du_Glaz_251111 Gi127@Trou_du_Glaz_251022
+    equate Gi132@Trou_du_Glaz_251111 Gi132@Trou_du_Glaz_251022
+    equate Gi134@Trou_du_Glaz_251111 Gi134@Trou_du_Glaz_251022
+    equate Gi132-3-8@Trou_du_Glaz_251111 Gi138@Trou_du_Glaz_251022
+
+    equate Me56-13@Trou_du_Glaz_251116 Me56-13@Trou_du_Glaz_250126
 
  
 ##########################################################################################

@@ -297,7 +297,8 @@ export map -projection extended -layout my_layout-coupe -o Outputs/A4-coupe.pdf
 export map -o Outputs/A4-plan.pdf -layout my_layout
  
 export model -o Outputs/A4.lox
-  
+export model -fmt esri -o Outputs/A4
+
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/A4 -layout my_layout
   
