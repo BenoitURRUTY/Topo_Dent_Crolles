@@ -19,6 +19,7 @@ survey Glaz -title "Trou du Glaz"
     input data/Riviere_reconciliation/Reconciliation-tot.th
     input data/Trou_du_Glaz_251111.th
     input data/Trou_du_Glaz_251116.th
+    input data/Trou_du_Glaz_260419.th
     
     equate Me55@Trou_du_Glaz_241131 Me55@Trou_du_Glaz_250126
     equate Me56@Trou_du_Glaz_241131 Me56@Trou_du_Glaz_250126
@@ -170,6 +171,10 @@ survey Glaz -title "Trou du Glaz"
 
     equate Me56-13@Trou_du_Glaz_251116 Me56-13@Trou_du_Glaz_250126
 
+    equate Me32.39@Trou_du_Glaz_241131 Me32.39@Trou_du_Glaz_260419
+    equate Me32.45@Trou_du_Glaz_241131 Me32.45@Trou_du_Glaz_260419
+    equate R2-10@Trou_du_Glaz_260419 R2-10@Trou_du_Glaz_241131
+    equate Me32.29-1@Trou_du_Glaz_260419 Me32.29-1@Trou_du_Glaz_241131
  
 ##########################################################################################
 ## Pour importer les différents fichiers de dessins en plan
