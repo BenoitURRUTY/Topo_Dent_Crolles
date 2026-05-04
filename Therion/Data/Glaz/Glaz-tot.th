@@ -20,7 +20,10 @@ survey Glaz -title "Trou du Glaz"
     input data/Trou_du_Glaz_251111.th
     input data/Trou_du_Glaz_251116.th
     input data/Trou_du_Glaz_260419.th
-    
+    input data/Trou_du_Glaz_260501.th
+    input data/Trou_du_Glaz_260503.th
+
+
     equate Me55@Trou_du_Glaz_241131 Me55@Trou_du_Glaz_250126
     equate Me56@Trou_du_Glaz_241131 Me56@Trou_du_Glaz_250126
     equate  Me44-6-9@Trou_du_Glaz_241131  Me44-6-9@Trou_du_Glaz_250126
@@ -175,6 +178,21 @@ survey Glaz -title "Trou du Glaz"
     equate Me32.45@Trou_du_Glaz_241131 Me32.45@Trou_du_Glaz_260419
     equate R2-10@Trou_du_Glaz_260419 R2-10@Trou_du_Glaz_241131
     equate Me32.29-1@Trou_du_Glaz_260419 Me32.29-1@Trou_du_Glaz_241131
+
+    equate Me48-a31@Trou_du_Glaz_260501 Me48-a31@Trou_du_Glaz_241131
+    equate Me48-a26-2@Trou_du_Glaz_260501 Me48-a26-2@Trou_du_Glaz_241131
+    equate R2-10-9@Trou_du_Glaz_260501 R2-10-9@Trou_du_Glaz_260419 
+
+    equate Me48-18@Trou_du_Glaz_260503 Me48-18@Trou_du_Glaz_241131
+    equate Me17@Trou_du_Glaz_260503 Me17@Trou_du_Glaz_241131
+    equate Me19@Trou_du_Glaz_260503 Me19@Trou_du_Glaz_241131
+    equate  Me6@Trou_du_Glaz_260503  Me6@Trou_du_Glaz_241131
+    equate Me5@Trou_du_Glaz_260503 Me5@Trou_du_Glaz_241131
+    equate MeA6-30@Trou_du_Glaz_260503 MeA6-30@Trou_du_Glaz_251004
+    equate  MeA6-29@Trou_du_Glaz_260503  MeA6-29@Trou_du_Glaz_251004
+    equate  MeA6-29-5@Trou_du_Glaz_260503  MeA6-26@Trou_du_Glaz_251004
+    equate MeA6-31@Trou_du_Glaz_260503 MeA6-31@Trou_du_Glaz_251004
+    equate MeA6-30-1-5@Trou_du_Glaz_260503 MeA6-30@Trou_du_Glaz_251004
  
 ##########################################################################################
 ## Pour importer les différents fichiers de dessins en plan

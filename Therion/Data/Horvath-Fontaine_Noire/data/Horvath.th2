@@ -255,8 +255,6 @@ point 184.75 236.5 debris
 
 point 177.5 238.5 debris
 
-line wall
-endline
 
 point 214.75 210.25 debris
 
@@ -619,8 +617,6 @@ line wall
   smooth off
 endline
 
-line wall -subtype invisible
-endline
 
 line wall -subtype invisible
   -180.25 357.75

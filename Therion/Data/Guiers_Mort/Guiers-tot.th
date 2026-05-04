@@ -7,6 +7,7 @@ input Data/Guiers_Mort.th
 input Data/Guiers_Mort_251025.th
 input Data/Guiers_Mort_251108.th
 input Data/Guiers_Mort_260413.th
+input Data/Guiers_Mort_260426.th
 
 
 equate S127@Guiers_Mort_240505 S127@Guiers_Mort_251025
@@ -27,6 +28,18 @@ equate Gm58-8@Guiers_Mort_251108 Gm17-10-23@Guiers_Mort_240505 # a confirmer
 
 equate S76-10@Guiers_Mort_240505    S76-10@Guiers_Mort_260413
 equate S76-16@Guiers_Mort_240505    S76-16@Guiers_Mort_260413
+equate S76-16-55-3@Guiers_Mort_260413 S76-16-52@Guiers_Mort_260413
+
+equate S76-16-17@Guiers_Mort_260426 S76-16-17@Guiers_Mort_260413 
+equate S76-16-22@Guiers_Mort_260426 S76-16-22@Guiers_Mort_260413
+equate S76-16-25@Guiers_Mort_260426 S76-16-25@Guiers_Mort_260413
+equate S76-16-30-2@Guiers_Mort_260426 S76-16-30-2@Guiers_Mort_260413
+equate S76-16-42@Guiers_Mort_260426 S76-16-42@Guiers_Mort_260413
+equate S76-16-46@Guiers_Mort_260426 S76-16-46@Guiers_Mort_260413
+equate S76-4@Guiers_Mort_260426 S76-4@Guiers_Mort_240505
+equate S76-16-42-25@Guiers_Mort_260426 S76-16-25-3@Guiers_Mort_260426   
+
+
 
 # en double
 
